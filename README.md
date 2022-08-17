@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, me llamo Manuel Londoño</h1>
-<h3 align="center">Soy un desarrollador Web Full Stack</h3>
+<h3 align="center">Soy un desarrollador Móvil y Web Full Stack</h3>
 
 - 🔭 Actualmente trabajo en Q10 [Software educativo](https://q10.com)
 
