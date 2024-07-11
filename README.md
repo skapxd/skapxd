@@ -1,11 +1,11 @@
 <h1 align="center">Hola 👋, me llamo Manuel Londoño</h1>
 <h3 align="center">Soy un desarrollador Móvil y Web Full Stack</h3>
-<img src="https://camo.githubusercontent.com/f9135da7e3b2b57ac254cf341a33ae7ec968529f9a1411b05a981393fddb6db7/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d73316e376178266c61796f75743d636f6d70616374" alt="Top Langs" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd&amp;layout=compact" style="max-width: 100%;">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd" alt="Top Langs" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd&amp;layout=compact" style="max-width: 100%;">
 
 https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd&amp;layout=compact
-- 🔭 Actualmente trabajo en Q10 [Software educativo](https://q10.com)
+- 🔭 Actualmente trabajo en One Sigma 
 
-- 🌱 Actualmente estoy aprendiendo **React Native**
+- 🌱 Actualmente estoy especializandome en **Testing de Nestjs**
 
 - 👨‍💻 Todos mis proyectos estan disponibles en [https://www.skapxd.dev/projects](https://www.skapxd.dev/projects)
 
