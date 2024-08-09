@@ -13,7 +13,7 @@
 1. [html to pdf](https://html-to-pdf.skapxd.dev)
 2. [All App](https://all-app.skapxd.dev)
 3. [Audiophile](https://audiophile.skapxd.dev/)
-4. [Portafolio](https://www.skapxd.dev/)
+4. [Portafolio](https://skapxd.dev/)
 5. [send otp with whatsapp](https://whatsapp.skapxd.dev/)
 6. [platform game](https://game.skapxd.dev/)
 
