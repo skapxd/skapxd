@@ -15,7 +15,7 @@
 3. [Audiophile](https://audiophile.skapxd.dev/)
 4. [Portafolio](https://skapxd.dev/)
 5. [send otp with whatsapp](https://whatsapp.skapxd.dev/)
-6. [platform game](https://game.skapxd.dev/)
+6. [platform game](https://mario-phaser-cli.vercel.app/)
 
 <h3 align="left">Conectate conmigo:</h3>
 <p align="left">
