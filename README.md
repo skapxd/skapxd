@@ -18,6 +18,7 @@
 6. [platform game](https://mario-phaser-cli.vercel.app/)
 7. [temporal mail](https://restmail.skapxd.dev/) <!-- https://www.creative-tim.com/twcomponents/component/inbox -->
 8. [send free email](https://send-email.skapxd.dev) as no.replay.msj@gmail.com
+9. [lost magic](https://lost-magic.skapxd.dev/)
 
 <h3 align="left">Conectate conmigo:</h3>
 <p align="left">
