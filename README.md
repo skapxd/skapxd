@@ -20,7 +20,7 @@
 8. [send free email](https://send-email.skapxd.dev) as no.replay.msj@gmail.com
 9. [lost magic](https://lost-magic.skapxd.dev/)
 10. [pixel-2-svg](https://pixel-2-svg.skapxd.dev/)
-11. [cotizar de preguntas para acesorias](https://cotizar-pregunta.skapxd.dev/)
+11. [cotizar de preguntas para acesorias](https://cotizar-pregunta.skapxd.dev/) (solo para estudiantes universitarios)
 
 <h3 align="left">Conectate conmigo:</h3>
 <p align="left">
