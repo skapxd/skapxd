@@ -19,7 +19,7 @@
 | [send free email](https://send-email.skapxd.dev) | [Repositorio](https://github.com/skapxd/send-email)| [Intención](https://html-to-pdf.skapxd.dev) |
 | [lost magic](https://lost-magic.skapxd.dev/) | [Repositorio](https://github.com/skapxd/clone-lost-magic-astro) | [Intención](https://html-to-pdf.skapxd.dev) |
 | [pixel-2-svg](https://pixel-2-svg.skapxd.dev/) | [Repositorio](https://github.com/skapxd/pixel-2-svg) | [Intención](https://html-to-pdf.skapxd.dev) |
-| [test view](https://pixel-2-svg.skapxd.dev/) | [Repositorio](https://github.com/skapxd/playwright-viewer) | [Intención](https://html-to-pdf.skapxd.dev) |
+| [test view](https://playwright-viewer-production.up.railway.app/doc/swagger) | [Repositorio](https://github.com/skapxd/playwright-viewer) | [Intención](https://html-to-pdf.skapxd.dev) |
 
 
 <h3 align="left">Conectate conmigo:</h3>
