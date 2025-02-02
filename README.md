@@ -1,3 +1,4 @@
+
 <h1 align="center">Hola 👋, me llamo Manuel Meneses</h1>
 <h3 align="center">Soy un desarrollador Web Full Stack</h3>
 
@@ -9,18 +10,17 @@
 )
 
 ### **Webs creada**
+| Web | Repositorio | Intension | 
+| -------- | -------- | -------- |  
+| [html to pdf](https://html-to-pdf.skapxd.dev) | [Repositorio](https://github.com/skapxd/html-to-pdf)  | [Intención](https://html-to-pdf.skapxd.dev) |
+| [All App](https://all-app.skapxd.dev)         | [Repositorio](https://github.com/skapxd/next-all-app) | [Intención](https://html-to-pdf.skapxd.dev) |
+| [Audiophile](https://audiophile.skapxd.dev/)  | [Repositorio](https://github.com/skapxd/audiophile)   | [Intención](https://html-to-pdf.skapxd.dev) |
+| [temporal mail](https://restmail.skapxd.dev/) | [Repositorio](https://github.com/skapxd/restmail-gui) | [Intención](https://html-to-pdf.skapxd.dev) |
+| [send free email](https://send-email.skapxd.dev) | [Repositorio](https://github.com/skapxd/send-email)| [Intención](https://html-to-pdf.skapxd.dev) |
+| [lost magic](https://lost-magic.skapxd.dev/) | [Repositorio](https://github.com/skapxd/clone-lost-magic-astro) | [Intención](https://html-to-pdf.skapxd.dev) |
+| [pixel-2-svg](https://pixel-2-svg.skapxd.dev/) | [Repositorio](https://github.com/skapxd/pixel-2-svg) | [Intención](https://html-to-pdf.skapxd.dev) |
+| [test view](https://pixel-2-svg.skapxd.dev/) | [Repositorio](https://github.com/skapxd/playwright-viewer) | [Intención](https://html-to-pdf.skapxd.dev) |
 
-1. [html to pdf](https://html-to-pdf.skapxd.dev)
-2. [All App](https://all-app.skapxd.dev)
-3. [Audiophile](https://audiophile.skapxd.dev/)
-4. [Portafolio](https://skapxd.dev/)
-5. [send otp with whatsapp](https://whatsapp.skapxd.dev/)
-6. [platform game](https://mario-phaser-cli.vercel.app/)
-7. [temporal mail](https://restmail.skapxd.dev/) <!-- https://www.creative-tim.com/twcomponents/component/inbox -->
-8. [send free email](https://send-email.skapxd.dev) as no.replay.msj@gmail.com
-9. [lost magic](https://lost-magic.skapxd.dev/)
-10. [pixel-2-svg](https://pixel-2-svg.skapxd.dev/)
-11. [cotizar de preguntas para acesorias](https://cotizar-pregunta.skapxd.dev/) (solo para estudiantes universitarios)
 
 <h3 align="left">Conectate conmigo:</h3>
 <p align="left">
