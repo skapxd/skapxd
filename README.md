@@ -4,7 +4,7 @@
 
 - 🔭 Actualmente trabajo en One Sigma
 - 🌱 Actualmente estoy especializandome en **Testing end to end**
-- 💬 Preguntame por **JavaScript, Node, React, TypeScript**
+- 💬 Preguntame por **JavaScript, Node, React, TypeScript y Playwright****
 - 📫 Como contactarme **<hola@skapxd.dev>**
 - 📄 Puedes ver mi [cv](https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf) y [descargarlo](https://raw.githubusercontent.com/skapxd/skapxd/main/cv-manuel-meneses.pdf
 )
