@@ -12,17 +12,28 @@
 ### **Webs creada**
 | Web | Repositorio | Intension | 
 | -------- | -------- | -------- |  
-| [html to pdf](https://html-to-pdf.skapxd.dev) | [Repositorio](https://github.com/skapxd/html-to-pdf)  | [Intención](https://html-to-pdf.skapxd.dev) |
 | [All App](https://all-app.skapxd.dev)         | [Repositorio](https://github.com/skapxd/next-all-app) | [Intención](https://html-to-pdf.skapxd.dev) |
 | [Audiophile](https://audiophile.skapxd.dev/)  | [Repositorio](https://github.com/skapxd/audiophile)   | [Intención](https://html-to-pdf.skapxd.dev) |
 | [temporal mail](https://restmail.skapxd.dev/) | [Repositorio](https://github.com/skapxd/restmail-gui) | [Intención](https://html-to-pdf.skapxd.dev) |
-| [send free email](https://send-email.skapxd.dev) | [Repositorio](https://github.com/skapxd/send-email)| [Intención](https://html-to-pdf.skapxd.dev) |
 | [lost magic](https://lost-magic.skapxd.dev/) | [Repositorio](https://github.com/skapxd/clone-lost-magic-astro) | [Intención](https://html-to-pdf.skapxd.dev) |
+
+### **Herramientas creada**
+| URL | Repositorio | Intension | 
+| -------- | -------- | -------- |  
+| [html to pdf](https://html-to-pdf.skapxd.dev) | [Repositorio](https://github.com/skapxd/html-to-pdf)  | [Intención](https://html-to-pdf.skapxd.dev) |
+| [json2nestDto](https://js-json-2-nestjs-dto.vercel.app/) | [Repositorio](https://github.com/skapxd/html-to-pdf)  | [Intención](https://html-to-pdf.skapxd.dev) |
+| [send free email](https://send-email.skapxd.dev) | [Repositorio](https://github.com/skapxd/send-email)| [Intención](https://html-to-pdf.skapxd.dev) |
 | [pixel-2-svg](https://pixel-2-svg.skapxd.dev/) | [Repositorio](https://github.com/skapxd/pixel-2-svg) | [Intención](https://html-to-pdf.skapxd.dev) |
 | [test view](https://playwright-viewer-production.up.railway.app/doc/swagger) | [Repositorio](https://github.com/skapxd/playwright-viewer) | [Intención](https://html-to-pdf.skapxd.dev) |
 
+### **Automatizaciones creadas**
+| URL | Intension | 
+| -------- | -------- |  
+| [Midu Tinder Swipe](https://test-result-view.skapxd.dev/view/08fcef8a-d7e7-4c9c-bf9a-edb001080099) | [Intención](https://html-to-pdf.skapxd.dev) |
+
 
 <h3 align="left">Conectate conmigo:</h3>
+
 <p align="left">
 <a href="https://linkedin.com/in/skapxd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="skapxd" height="30" width="40" /></a>
 </p>
