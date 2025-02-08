@@ -24,7 +24,7 @@
 | [json2nestDto](https://js-json-2-nestjs-dto.vercel.app/) | [Repositorio](https://github.com/skapxd/html-to-pdf)  | [Intención](https://html-to-pdf.skapxd.dev) |
 | [send free email](https://send-email.skapxd.dev) | [Repositorio](https://github.com/skapxd/send-email)| [Intención](https://html-to-pdf.skapxd.dev) |
 | [pixel-2-svg](https://pixel-2-svg.skapxd.dev/) | [Repositorio](https://github.com/skapxd/pixel-2-svg) | [Intención](https://html-to-pdf.skapxd.dev) |
-| [test view](https://playwright-viewer-production.up.railway.app/doc/swagger) | [Repositorio](https://github.com/skapxd/playwright-viewer) | [Intención](https://html-to-pdf.skapxd.dev) |
+| [test view](https://playwright-viewer-production.up.railway.app/) | [Repositorio](https://github.com/skapxd/playwright-viewer) | [Intención](https://html-to-pdf.skapxd.dev) |
 
 ### **Automatizaciones creadas**
 | Test result | Web | Intension | 
