@@ -29,7 +29,7 @@
 ### **Automatizaciones creadas**
 | Test result | Web | Intension | 
 | -------- | -------- | -------- |  
-| [Midu Tinder Swipe](https://test-result-view.skapxd.dev/view/08fcef8a-d7e7-4c9c-bf9a-edb001080099) | [01-tinder-swipe](https://www.javascript100.dev/01-tinder-swipe) | [Intención](https://html-to-pdf.skapxd.dev) |
+| [Result Viewer](https://test-result-view.skapxd.dev/view/08fcef8a-d7e7-4c9c-bf9a-edb001080099) | [01-tinder-swipe](https://www.javascript100.dev/01-tinder-swipe) | [Intención](https://html-to-pdf.skapxd.dev) |
 
 
 <h3 align="left">Conectate conmigo:</h3>
