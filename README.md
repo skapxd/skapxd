@@ -16,6 +16,7 @@
 | [Audiophile](https://audiophile.skapxd.dev/)  | [Repositorio](https://github.com/skapxd/audiophile)   | [Intención](https://html-to-pdf.skapxd.dev) |
 | [temporal mail](https://restmail.skapxd.dev/) | [Repositorio](https://github.com/skapxd/restmail-gui) | [Intención](https://html-to-pdf.skapxd.dev) |
 | [lost magic](https://lost-magic.skapxd.dev/) | [Repositorio](https://github.com/skapxd/clone-lost-magic-astro) | [Intención](https://html-to-pdf.skapxd.dev) |
+| [Dynamic Mocks](https://dynamic-mock.skapxd.dev/) | [Repositorio](https://github.com/skapxd/clone-lost-magic-astro) | [Intención](https://html-to-pdf.skapxd.dev) |
 
 ### **Herramientas creada**
 | URL | Repositorio | Intension | 
