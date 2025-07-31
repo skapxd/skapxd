@@ -9,6 +9,10 @@
 - 📄 Puedes ver mi [cv](https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf) y [descargarlo](https://raw.githubusercontent.com/skapxd/skapxd/main/cv-manuel-meneses.pdf
 )
 
+
+### **Articulos creados**
+[Sagas en NestJS](https://medium.com/@manulondoo/adi%C3%B3s-al-infierno-del-debugging-coreografiando-sagas-en-nestjs-sin-perder-la-cordura-d27d091b9b76)
+
 ### **Webs creada**
 | Web | Repositorio | Intension | 
 | -------- | -------- | -------- |  
