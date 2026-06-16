@@ -8,10 +8,15 @@
       <stop offset="1" stop-color="#171014"/>
     </linearGradient>
     <linearGradient id="01-core-ledger-bg-accent" x1="0" y1="70" x2="1200" y2="350" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1E293B" stop-opacity="0.18"/>
+      <stop offset="0" stop-color="#1E293B" stop-opacity="0.24"/>
       <stop offset="0.52" stop-color="#8B1A1A" stop-opacity="0.32"></stop>
-      <stop offset="1" stop-color="#C0392B" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#C0392B" stop-opacity="0.36"/>
     </linearGradient>
+    <radialGradient id="01-core-ledger-red-wash" cx="82%" cy="44%" r="62%" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#C0392B" stop-opacity="0.40"/>
+      <stop offset="0.42" stop-color="#8B1A1A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8B1A1A" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="01-core-ledger-frame" x1="24" y1="24" x2="1176" y2="396" gradientUnits="userSpaceOnUse">
       <stop stop-color="#4B5563"/>
       <stop offset="0.55" stop-color="#8B1A1A" stop-opacity="0.82"></stop>
@@ -36,6 +41,7 @@
   </defs>
   <rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#01-core-ledger-bg)"/>
 <rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#01-core-ledger-bg-accent)" fill-opacity="0.42"/>
+<rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#01-core-ledger-red-wash)" opacity="0.22"/>
 <rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#01-core-ledger-grid)"/>
 <rect x="24" y="24" width="1152" height="372" rx="28" fill="#0A0D12" fill-opacity="0.28" stroke="url(#01-core-ledger-frame)" stroke-width="2" stroke-opacity="0.46"/>
 <path d="M24 110H1176" stroke="url(#01-core-ledger-line)" stroke-opacity="0.18"/>

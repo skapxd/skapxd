@@ -4,22 +4,29 @@
   <defs>
     <linearGradient id="profile-hero-bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#07090D"/>
-      <stop offset="0.58" stop-color="#10141B"><animate attributeName="stop-color" values="#10141B;#21151A;#10141B" dur="14s" repeatCount="indefinite"/></stop>
+      <stop offset="0.58" stop-color="#10141B"><animate attributeName="stop-color" values="#10141B;#2A151A;#111D29;#10141B" dur="8s" repeatCount="indefinite"/></stop>
       <stop offset="1" stop-color="#171014"/>
     </linearGradient>
     <linearGradient id="profile-hero-bg-accent" x1="0" y1="70" x2="1200" y2="350" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1E293B" stop-opacity="0.18"/>
-      <stop offset="0.52" stop-color="#8B1A1A" stop-opacity="0.32"><animate attributeName="stop-opacity" values="0.30;0.58;0.30" dur="11s" repeatCount="indefinite"/></stop>
-      <stop offset="1" stop-color="#C0392B" stop-opacity="0.24"/>
+      <animate attributeName="x1" values="0;160;0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1200;1040;1200" dur="9s" repeatCount="indefinite"/>
+      <stop offset="0" stop-color="#1E293B" stop-opacity="0.24"/>
+      <stop offset="0.52" stop-color="#8B1A1A" stop-opacity="0.32"><animate attributeName="stop-opacity" values="0.28;0.86;0.28" dur="6.8s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#C0392B" stop-opacity="0.36"/>
     </linearGradient>
+    <radialGradient id="profile-hero-red-wash" cx="82%" cy="44%" r="62%" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#C0392B" stop-opacity="0.40"/>
+      <stop offset="0.42" stop-color="#8B1A1A" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8B1A1A" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="profile-hero-frame" x1="24" y1="24" x2="1176" y2="396" gradientUnits="userSpaceOnUse">
       <stop stop-color="#4B5563"/>
-      <stop offset="0.55" stop-color="#8B1A1A" stop-opacity="0.82"><animate attributeName="stop-opacity" values="0.74;1;0.74" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="0.55" stop-color="#8B1A1A" stop-opacity="0.82"><animate attributeName="stop-opacity" values="0.62;1;0.62" dur="5.8s" repeatCount="indefinite"/></stop>
       <stop offset="1" stop-color="#C0392B"/>
     </linearGradient>
     <linearGradient id="profile-hero-line" x1="0" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#D8DEE9" stop-opacity="0.24"/>
-      <stop offset="0.45" stop-color="#8B1A1A" stop-opacity="0.78"><animate attributeName="stop-opacity" values="0.48;0.94;0.48" dur="6.5s" repeatCount="indefinite"/><animate attributeName="stop-color" values="#8B1A1A;#F0A39B;#8B1A1A" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="0.45" stop-color="#8B1A1A" stop-opacity="0.78"><animate attributeName="stop-opacity" values="0.30;1;0.30" dur="4.8s" repeatCount="indefinite"/><animate attributeName="stop-color" values="#8B1A1A;#F0A39B;#C0392B;#8B1A1A" dur="6.2s" repeatCount="indefinite"/></stop>
       <stop offset="1" stop-color="#F0A39B" stop-opacity="0.38"/>
     </linearGradient>
     <pattern id="profile-hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -35,11 +42,12 @@
 </style>
   </defs>
   <rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#profile-hero-bg)"/>
-<rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#profile-hero-bg-accent)" fill-opacity="0.72"/>
+<rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#profile-hero-bg-accent)" fill-opacity="0.74"><animate attributeName="fill-opacity" values="0.46;0.96;0.46" dur="6.8s" repeatCount="indefinite"/></rect>
+<rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#profile-hero-red-wash)" opacity="0.22"><animate attributeName="opacity" values="0.18;0.64;0.18" dur="6.2s" repeatCount="indefinite"/></rect>
 <rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#profile-hero-grid)"/>
-<rect x="24" y="24" width="1152" height="372" rx="28" fill="#0A0D12" fill-opacity="0.28" stroke="url(#profile-hero-frame)" stroke-width="2" stroke-opacity="0.46"><animate attributeName="stroke-opacity" values="0.34;0.56;0.34" dur="9s" repeatCount="indefinite"/></rect>
-<path d="M24 110H1176" stroke="url(#profile-hero-line)" stroke-opacity="0.18"/>
-<path d="M24 314H1176" stroke="url(#profile-hero-line)" stroke-opacity="0.16"/>
+<rect x="24" y="24" width="1152" height="372" rx="28" fill="#0A0D12" fill-opacity="0.28" stroke="url(#profile-hero-frame)" stroke-width="2" stroke-opacity="0.46"><animate attributeName="stroke-opacity" values="0.40;0.82;0.40" dur="5.8s" repeatCount="indefinite"/></rect>
+<path d="M24 110H1176" stroke="url(#profile-hero-line)" stroke-opacity="0.22"><animate attributeName="stroke-opacity" values="0.14;0.48;0.14" dur="5.2s" repeatCount="indefinite"/></path>
+<path d="M24 314H1176" stroke="url(#profile-hero-line)" stroke-opacity="0.2"><animate attributeName="stroke-opacity" values="0.12;0.44;0.12" dur="5.2s" repeatCount="indefinite"/></path>
 <rect x="64" y="64" width="576" height="292" rx="20" fill="#0F141B" fill-opacity="0.9" stroke="#D8DEE9" stroke-opacity="0.09"/>
 <rect x="92" y="92" width="214" height="42" rx="9" fill="#FFFFFF" fill-opacity="0.052" stroke="#D8DEE9" stroke-opacity="0.13"/>
 <rect x="107" y="116" width="5" height="8" rx="1" fill="#F3B6AF"/>
@@ -57,12 +65,12 @@
 <text x="388.5" y="337" fill="#CBD5E1" text-anchor="middle" class="label">Node.js</text>
 <rect x="453" y="314" width="126" height="34" rx="7" fill="#8B1A1A" fill-opacity="0.94" stroke="#D8DEE9" stroke-opacity="0"/>
 <text x="516" y="337" fill="#FFFFFF" text-anchor="middle" class="label">APIs</text>
-<g opacity="0.72"><path d="M660 82V338" stroke="url(#profile-hero-line)" stroke-width="1.5" stroke-linecap="round" opacity="0.55"/>
-<path d="M636 118H684" stroke="#D8DEE9" stroke-opacity="0.08"/>
+<g opacity="0.72"><path d="M660 82V338" stroke="url(#profile-hero-line)" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.52"><animate attributeName="stroke-opacity" values="0.28;0.86;0.28" dur="5.4s" repeatCount="indefinite"/></path>
+<path d="M636 118H684" stroke="url(#profile-hero-line)" stroke-opacity="0.12"><animate attributeName="stroke-opacity" values="0.10;0.38;0.10" dur="5.4s" repeatCount="indefinite"/></path>
 <rect x="650" y="108" width="20" height="20" rx="4" fill="#8B1A1A" fill-opacity="0.86"/>
-<path d="M636 200H684" stroke="#D8DEE9" stroke-opacity="0.08"/>
+<path d="M636 200H684" stroke="url(#profile-hero-line)" stroke-opacity="0.12"><animate attributeName="stroke-opacity" values="0.10;0.38;0.10" dur="5.4s" repeatCount="indefinite"/></path>
 <rect x="650" y="190" width="20" height="20" rx="4" fill="#C0392B" fill-opacity="0.86"/>
-<path d="M636 282H684" stroke="#D8DEE9" stroke-opacity="0.08"/>
+<path d="M636 282H684" stroke="url(#profile-hero-line)" stroke-opacity="0.12"><animate attributeName="stroke-opacity" values="0.10;0.38;0.10" dur="5.4s" repeatCount="indefinite"/></path>
 <rect x="650" y="272" width="20" height="20" rx="4" fill="#8B1A1A" fill-opacity="0.86"/></g>
 <rect x="686" y="64" width="430" height="292" rx="20" fill="#0F141B" fill-opacity="0.9" stroke="#D8DEE9" stroke-opacity="0.13"/>
 <rect x="718" y="88" width="366" height="44" rx="10" fill="#FFFFFF" fill-opacity="0.052" stroke="#D8DEE9" stroke-opacity="0.11"/>
@@ -74,8 +82,8 @@
 <text x="177" y="44" fill="#CBD5E1" class="mono" text-anchor="middle">contract</text>
 <rect x="264" y="0" width="90" height="58" rx="12" fill="#111827" stroke="#D8DEE9" stroke-opacity="0.17"/>
 <text x="309" y="35" fill="#CBD5E1" class="micro" text-anchor="middle">EVENTOS</text>
-<path d="M92 29H128" stroke="url(#profile-hero-line)" stroke-width="3" stroke-linecap="round"/>
-<path d="M224 29H260" stroke="url(#profile-hero-line)" stroke-width="3" stroke-linecap="round"/>
+<path d="M92 29H128" stroke="url(#profile-hero-line)" stroke-width="3" stroke-linecap="round" stroke-opacity="0.72"><animate attributeName="stroke-opacity" values="0.42;1;0.42" dur="4.8s" repeatCount="indefinite"/><animate attributeName="stroke-width" values="3;4.2;3" dur="4.8s" repeatCount="indefinite"/></path>
+<path d="M224 29H260" stroke="url(#profile-hero-line)" stroke-width="3" stroke-linecap="round" stroke-opacity="0.72"><animate attributeName="stroke-opacity" values="0.42;1;0.42" dur="4.8s" repeatCount="indefinite"/><animate attributeName="stroke-width" values="3;4.2;3" dur="4.8s" repeatCount="indefinite"/></path>
 <circle cx="92" cy="29" r="4.5" fill="#F0A39B"/>
 <circle cx="128" cy="29" r="4.5" fill="#F0A39B"/>
 <circle cx="224" cy="29" r="4.5" fill="#F0A39B"/>
@@ -83,6 +91,6 @@
 <g transform="translate(724 260)"><rect x="0" y="0" width="360" height="58" rx="12" fill="#FFFFFF" fill-opacity="0.04" stroke="#D8DEE9" stroke-opacity="0.11"/>
 <text x="20" y="25" fill="#F0A39B" class="micro">CONTRATOS</text>
 <text x="20" y="44" fill="#CBD5E1" class="mono">solicitud → validación → decisión</text>
-<path d="M302 20H336" stroke="url(#profile-hero-line)" stroke-width="4" stroke-linecap="round" opacity="0.78"/>
+<path d="M302 20H336" stroke="url(#profile-hero-line)" stroke-width="4" stroke-linecap="round" opacity="0.78" stroke-opacity="0.68"><animate attributeName="stroke-opacity" values="0.34;0.92;0.34" dur="4.8s" repeatCount="indefinite"/><animate attributeName="stroke-width" values="4;5.4;4" dur="4.8s" repeatCount="indefinite"/></path>
 <path d="M302 36H326" stroke="#D8DEE9" stroke-opacity="0.38" stroke-width="4" stroke-linecap="round"/></g>
 </svg>

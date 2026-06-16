@@ -158,19 +158,25 @@ function badge(x, y, label, icon = "bars") {
 
 function baseDefs(id, { animated = false } = {}) {
   const bgAnimation = animated
-    ? '<animate attributeName="stop-color" values="#10141B;#21151A;#10141B" dur="14s" repeatCount="indefinite"/>'
+    ? '<animate attributeName="stop-color" values="#10141B;#2A151A;#111D29;#10141B" dur="8s" repeatCount="indefinite"/>'
+    : "";
+  const bgAccentVectorAnimation = animated
+    ? [
+        '      <animate attributeName="x1" values="0;160;0" dur="9s" repeatCount="indefinite"/>',
+        '      <animate attributeName="x2" values="1200;1040;1200" dur="9s" repeatCount="indefinite"/>',
+      ].join("\n")
     : "";
   const bgAccentAnimation = animated
-    ? '<animate attributeName="stop-opacity" values="0.30;0.58;0.30" dur="11s" repeatCount="indefinite"/>'
+    ? '<animate attributeName="stop-opacity" values="0.28;0.86;0.28" dur="6.8s" repeatCount="indefinite"/>'
     : "";
   const frameAnimation = animated
-    ? '<animate attributeName="stop-opacity" values="0.74;1;0.74" dur="9s" repeatCount="indefinite"/>'
+    ? '<animate attributeName="stop-opacity" values="0.62;1;0.62" dur="5.8s" repeatCount="indefinite"/>'
     : "";
   const lineAnimation = animated
-    ? '<animate attributeName="stop-opacity" values="0.48;0.94;0.48" dur="6.5s" repeatCount="indefinite"/>'
+    ? '<animate attributeName="stop-opacity" values="0.30;1;0.30" dur="4.8s" repeatCount="indefinite"/>'
     : "";
   const lineColorAnimation = animated
-    ? '<animate attributeName="stop-color" values="#8B1A1A;#F0A39B;#8B1A1A" dur="8s" repeatCount="indefinite"/>'
+    ? '<animate attributeName="stop-color" values="#8B1A1A;#F0A39B;#C0392B;#8B1A1A" dur="6.2s" repeatCount="indefinite"/>'
     : "";
 
   return tag("defs", {}, `
@@ -180,10 +186,15 @@ function baseDefs(id, { animated = false } = {}) {
       <stop offset="1" stop-color="${palette.bg2}"/>
     </linearGradient>
     <linearGradient id="${id}-bg-accent" x1="0" y1="70" x2="${WIDTH}" y2="350" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1E293B" stop-opacity="0.18"/>
+${bgAccentVectorAnimation ? `${bgAccentVectorAnimation}\n` : ""}      <stop offset="0" stop-color="#1E293B" stop-opacity="0.24"/>
       <stop offset="0.52" stop-color="${palette.red}" stop-opacity="0.32">${bgAccentAnimation}</stop>
-      <stop offset="1" stop-color="${palette.red2}" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="${palette.red2}" stop-opacity="0.36"/>
     </linearGradient>
+    <radialGradient id="${id}-red-wash" cx="82%" cy="44%" r="62%" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="${palette.red2}" stop-opacity="0.40"/>
+      <stop offset="0.42" stop-color="${palette.red}" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="${palette.red}" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="${id}-frame" x1="24" y1="24" x2="1176" y2="396" gradientUnits="userSpaceOnUse">
       <stop stop-color="#4B5563"/>
       <stop offset="0.55" stop-color="${palette.red}" stop-opacity="0.82">${frameAnimation}</stop>
@@ -202,6 +213,30 @@ function baseDefs(id, { animated = false } = {}) {
 }
 
 function baseFrame(id, children, { animated = false } = {}) {
+  const bgAccent = animated
+    ? tag("rect", {
+        x: 0,
+        y: 0,
+        width: WIDTH,
+        height: HEIGHT,
+        rx: 28,
+        fill: `url(#${id}-bg-accent)`,
+        "fill-opacity": 0.74,
+      }, '<animate attributeName="fill-opacity" values="0.46;0.96;0.46" dur="6.8s" repeatCount="indefinite"/>')
+    : rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-bg-accent)`, "fill-opacity": 0.42 });
+
+  const redWash = animated
+    ? tag("rect", {
+        x: 0,
+        y: 0,
+        width: WIDTH,
+        height: HEIGHT,
+        rx: 28,
+        fill: `url(#${id}-red-wash)`,
+        opacity: 0.22,
+      }, '<animate attributeName="opacity" values="0.18;0.64;0.18" dur="6.2s" repeatCount="indefinite"/>')
+    : rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-red-wash)`, opacity: 0.22 });
+
   const frame = animated
     ? tag("rect", {
         x: 24,
@@ -214,7 +249,7 @@ function baseFrame(id, children, { animated = false } = {}) {
         stroke: `url(#${id}-frame)`,
         "stroke-width": 2,
         "stroke-opacity": 0.46,
-      }, '<animate attributeName="stroke-opacity" values="0.34;0.56;0.34" dur="9s" repeatCount="indefinite"/>')
+      }, '<animate attributeName="stroke-opacity" values="0.40;0.82;0.40" dur="5.8s" repeatCount="indefinite"/>')
     : rect(24, 24, 1152, 372, {
         rx: 28,
         fill: "#0A0D12",
@@ -226,11 +261,16 @@ function baseFrame(id, children, { animated = false } = {}) {
 
   return [
     rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-bg)` }),
-    rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-bg-accent)`, "fill-opacity": animated ? 0.72 : 0.42 }),
+    bgAccent,
+    redWash,
     rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-grid)` }),
     frame,
-    line(24, 110, 1176, { stroke: `url(#${id}-line)`, "stroke-opacity": 0.18 }),
-    line(24, 314, 1176, { stroke: `url(#${id}-line)`, "stroke-opacity": 0.16 }),
+    animated
+      ? tag("path", { d: "M24 110H1176", stroke: `url(#${id}-line)`, "stroke-opacity": 0.22 }, '<animate attributeName="stroke-opacity" values="0.14;0.48;0.14" dur="5.2s" repeatCount="indefinite"/>')
+      : line(24, 110, 1176, { stroke: `url(#${id}-line)`, "stroke-opacity": 0.18 }),
+    animated
+      ? tag("path", { d: "M24 314H1176", stroke: `url(#${id}-line)`, "stroke-opacity": 0.20 }, '<animate attributeName="stroke-opacity" values="0.12;0.44;0.12" dur="5.2s" repeatCount="indefinite"/>')
+      : line(24, 314, 1176, { stroke: `url(#${id}-line)`, "stroke-opacity": 0.16 }),
     ...children,
   ].join("\n");
 }
@@ -264,7 +304,7 @@ function introPanel(id, options = {}) {
   ].join("\n");
 }
 
-function flowPanel(id, variant) {
+function flowPanel(id, variant, { animated = false } = {}) {
   const panel = { x: 686, y: 64, width: 430, height: 292 };
   const header = { x: 718, y: 88, width: 366, height: 44 };
   const flow = { x: 724, y: 164, width: 354, height: 58 };
@@ -277,6 +317,12 @@ function flowPanel(id, variant) {
   const middleMono = variant === "api" ? "contract" : "score()";
   const leftLabel = variant === "credit" ? "SOLIC." : "CAPTURA";
   const rightLabel = variant === "api" ? "EVENTOS" : "API";
+  const connectorAnimation = animated
+    ? '<animate attributeName="stroke-opacity" values="0.42;1;0.42" dur="4.8s" repeatCount="indefinite"/><animate attributeName="stroke-width" values="3;4.2;3" dur="4.8s" repeatCount="indefinite"/>'
+    : null;
+  const shortLineAnimation = animated
+    ? '<animate attributeName="stroke-opacity" values="0.34;0.92;0.34" dur="4.8s" repeatCount="indefinite"/><animate attributeName="stroke-width" values="4;5.4;4" dur="4.8s" repeatCount="indefinite"/>'
+    : null;
 
   return [
     rect(panel.x, panel.y, panel.width, panel.height, {
@@ -305,8 +351,8 @@ function flowPanel(id, variant) {
       text(177, 44, middleMono, { fill: palette.muted, class: "mono", "text-anchor": "middle" }),
       rect(264, 0, 90, 58, { rx: 12, fill: palette.bluePanel, stroke: palette.line, "stroke-opacity": 0.17 }),
       text(309, 35, rightLabel, { fill: palette.muted, class: "micro", "text-anchor": "middle" }),
-      tag("path", { d: "M92 29H128", stroke: `url(#${id}-line)`, "stroke-width": 3, "stroke-linecap": "round" }, null),
-      tag("path", { d: "M224 29H260", stroke: `url(#${id}-line)`, "stroke-width": 3, "stroke-linecap": "round" }, null),
+      tag("path", { d: "M92 29H128", stroke: `url(#${id}-line)`, "stroke-width": 3, "stroke-linecap": "round", "stroke-opacity": animated ? 0.72 : undefined }, connectorAnimation),
+      tag("path", { d: "M224 29H260", stroke: `url(#${id}-line)`, "stroke-width": 3, "stroke-linecap": "round", "stroke-opacity": animated ? 0.72 : undefined }, connectorAnimation),
       tag("circle", { cx: 92, cy: 29, r: 4.5, fill: palette.rose }, null),
       tag("circle", { cx: 128, cy: 29, r: 4.5, fill: palette.rose }, null),
       tag("circle", { cx: 224, cy: 29, r: 4.5, fill: palette.rose }, null),
@@ -325,19 +371,28 @@ function flowPanel(id, variant) {
         fill: palette.muted,
         class: "mono",
       }),
-      tag("path", { d: "M302 20H336", stroke: `url(#${id}-line)`, "stroke-width": 4, "stroke-linecap": "round", opacity: 0.78 }, null),
+      tag("path", { d: "M302 20H336", stroke: `url(#${id}-line)`, "stroke-width": 4, "stroke-linecap": "round", opacity: 0.78, "stroke-opacity": animated ? 0.68 : undefined }, shortLineAnimation),
       tag("path", { d: "M302 36H326", stroke: palette.line, "stroke-opacity": 0.38, "stroke-width": 4, "stroke-linecap": "round" }, null),
     ], { transform: `translate(${audit.x} ${audit.y})` }),
   ].join("\n");
 }
 
-function metricRail(id, variant) {
+function metricRail(id, variant, { animated = false } = {}) {
+  const railAnimation = animated
+    ? '<animate attributeName="stroke-opacity" values="0.28;0.86;0.28" dur="5.4s" repeatCount="indefinite"/>'
+    : null;
+  const tickAnimation = animated
+    ? '<animate attributeName="stroke-opacity" values="0.10;0.38;0.10" dur="5.4s" repeatCount="indefinite"/>'
+    : null;
+
   return g([
-    vline(660, 82, 338, { stroke: `url(#${id}-line)`, "stroke-width": 1.5, "stroke-linecap": "round", opacity: 0.55 }),
+    tag("path", { d: "M660 82V338", stroke: `url(#${id}-line)`, "stroke-width": 1.5, "stroke-linecap": "round", "stroke-opacity": animated ? 0.52 : undefined, opacity: animated ? undefined : 0.55 }, railAnimation),
     ...[0, 1, 2].flatMap((_, index) => {
       const y = 108 + index * 82;
       return [
-        line(636, y + 10, 684, { stroke: palette.line, "stroke-opacity": 0.08 }),
+        animated
+          ? tag("path", { d: `M636 ${y + 10}H684`, stroke: `url(#${id}-line)`, "stroke-opacity": 0.12 }, tickAnimation)
+          : line(636, y + 10, 684, { stroke: palette.line, "stroke-opacity": 0.08 }),
         rect(650, y, 20, 20, { rx: 4, fill: index === 1 ? palette.red2 : palette.red, "fill-opacity": 0.86 }),
       ];
     }),
@@ -356,8 +411,8 @@ function buildCandidate(candidate, { animated = false, outputId = candidate.id }
 
   const body = baseFrame(id, [
     introPanel(id, introOptions),
-    metricRail(id, candidate.variant),
-    flowPanel(id, candidate.variant),
+    metricRail(id, candidate.variant, { animated }),
+    flowPanel(id, candidate.variant, { animated }),
   ], { animated });
 
   return `<svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
