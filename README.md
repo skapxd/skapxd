@@ -1,8 +1,9 @@
-<h1 align="center">Manuel Meneses</h1>
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Manuel Meneses - Staff Software Engineer & Solutions Architect" width="100%">
+</p>
 
 <p align="center">
-  <strong>Staff Software Engineer & Solutions Architect</strong><br>
-  TypeScript · Node.js · NestJS · Next.js · Banca · FinTech · Azure DevOps
+  <strong>Arquitectura de software, sistemas financieros y tooling ejecutable para equipos TypeScript.</strong>
 </p>
 
 <p align="center">

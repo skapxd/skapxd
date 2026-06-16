@@ -1,0 +1,102 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Manuel Meneses - Staff Software Engineer and Solutions Architect</title>
+  <desc id="desc">Animated dark technical profile banner with banking, TypeScript, Node.js, NestJS, decision engines, Azure DevOps and developer tooling signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07080c"/>
+      <stop offset="0.48" stop-color="#11131a"/>
+      <stop offset="1" stop-color="#230c11"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="122" y1="75" x2="1074" y2="333" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C0392B"/>
+      <stop offset="0.45" stop-color="#8B1A1A"/>
+      <stop offset="1" stop-color="#F5A097"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.47" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="0.53" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1200 0" to="1200 0" dur="5.8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#FFFFFF" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.75 0 0.22 0 0 0.08 0 0 0.16 0 0.06 0 0 0 0.85 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes floatPulse {
+        0%, 100% { opacity: .35; transform: translateY(0); }
+        50% { opacity: .9; transform: translateY(-10px); }
+      }
+      @keyframes flow {
+        0% { stroke-dashoffset: 720; opacity: .15; }
+        40% { opacity: .9; }
+        100% { stroke-dashoffset: 0; opacity: .15; }
+      }
+      @keyframes blink {
+        0%, 72%, 100% { opacity: .25; }
+        82% { opacity: 1; }
+      }
+      .orbit { animation: floatPulse 4.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .flow { stroke-dasharray: 18 18; animation: flow 7s linear infinite; }
+      .blink { animation: blink 3.4s ease-in-out infinite; }
+      .small { font: 600 20px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .12em; }
+      .title { font: 800 68px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: -.03em; }
+      .subtitle { font: 600 28px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .tag { font: 700 18px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .02em; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="32" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="418" rx="31" stroke="url(#accent)" stroke-opacity="0.55" stroke-width="2"/>
+  <rect width="1200" height="420" rx="32" fill="url(#grid)"/>
+  <rect width="1200" height="420" rx="32" fill="url(#scan)" opacity="0.8"/>
+
+  <circle cx="944" cy="128" r="190" fill="#8B1A1A" opacity="0.16" filter="url(#glow)"/>
+  <circle cx="184" cy="330" r="120" fill="#C0392B" opacity="0.11" filter="url(#glow)"/>
+
+  <path class="flow" d="M102 302C235 226 338 246 466 172C623 81 746 104 860 155C968 203 1011 138 1098 86" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.65"/>
+  <path class="flow" d="M145 337C262 296 342 303 454 249C621 169 779 206 898 251C989 285 1044 247 1112 211" stroke="#F5A097" stroke-width="2" stroke-linecap="round" opacity="0.32" style="animation-delay:-2.4s"/>
+
+  <g opacity="0.95">
+    <rect x="72" y="62" width="168" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <circle class="blink" cx="98" cy="83" r="7" fill="#6EE7B7"/>
+    <text x="116" y="89" fill="#E5E7EB" class="small">MISSION CRITICAL</text>
+  </g>
+
+  <g class="orbit" style="animation-delay:-.6s">
+    <circle cx="946" cy="122" r="58" fill="#FFFFFF" fill-opacity="0.05" stroke="#F5A097" stroke-opacity="0.48"/>
+    <path d="M918 128L938 148L976 102" stroke="#F5A097" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g class="orbit" style="animation-delay:-2.2s">
+    <rect x="890" y="244" width="210" height="88" rx="18" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.13"/>
+    <text x="914" y="280" fill="#F5A097" class="tag">DECISION ENGINE</text>
+    <text x="914" y="310" fill="#CBD5E1" class="tag">BPMN · APIs · Azure</text>
+  </g>
+
+  <text x="72" y="180" fill="#F8FAFC" class="title">Manuel Meneses</text>
+  <text x="76" y="224" fill="#CBD5E1" class="subtitle">Staff Software Engineer &amp; Solutions Architect</text>
+  <text x="78" y="264" fill="#F5A097" class="tag">TypeScript · Node.js · NestJS · Banking · FinTech · Developer Tooling</text>
+
+  <g transform="translate(76 306)">
+    <rect width="112" height="34" rx="17" fill="#3178C6" fill-opacity="0.95"/>
+    <text x="24" y="23" fill="white" class="tag">TS</text>
+    <rect x="126" width="126" height="34" rx="17" fill="#339933" fill-opacity="0.95"/>
+    <text x="151" y="23" fill="white" class="tag">Node</text>
+    <rect x="266" width="126" height="34" rx="17" fill="#E0234E" fill-opacity="0.95"/>
+    <text x="288" y="23" fill="white" class="tag">NestJS</text>
+    <rect x="406" width="142" height="34" rx="17" fill="#111827" stroke="#FFFFFF" stroke-opacity="0.22"/>
+    <text x="430" y="23" fill="#F8FAFC" class="tag">Next.js</text>
+    <rect x="562" width="178" height="34" rx="17" fill="#8B1A1A"/>
+    <text x="588" y="23" fill="white" class="tag">Azure DevOps</text>
+  </g>
+</svg>
