@@ -4,6 +4,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const OUTPUT_DIR = "assets/profile-hero-candidates";
+const ACTIVE_OUTPUT = "assets/profile-hero.svg";
+const ACTIVE_CANDIDATE_ID = "03-enterprise-api";
 const WIDTH = 1200;
 const HEIGHT = 420;
 
@@ -89,7 +91,7 @@ function text(x, y, content, options = {}) {
   return tag("text", { x, y, ...options }, escapeText(content));
 }
 
-function line(x1, y1, x2, y2, options = {}) {
+function line(x1, y1, x2, options = {}) {
   return tag("path", { d: `M${x1} ${y1}H${x2}`, ...options }, null);
 }
 
@@ -154,21 +156,31 @@ function badge(x, y, label, icon = "bars") {
   ].join("\n");
 }
 
-function baseDefs(id) {
+function baseDefs(id, { animated = false } = {}) {
+  const bgAnimation = animated
+    ? '<animate attributeName="stop-color" values="#10141B;#131820;#10141B" dur="14s" repeatCount="indefinite"/>'
+    : "";
+  const frameAnimation = animated
+    ? '<animate attributeName="stop-opacity" values="0.70;1;0.70" dur="9s" repeatCount="indefinite"/>'
+    : "";
+  const lineAnimation = animated
+    ? '<animate attributeName="stop-opacity" values="0.38;0.72;0.38" dur="6.5s" repeatCount="indefinite"/>'
+    : "";
+
   return tag("defs", {}, `
     <linearGradient id="${id}-bg" x1="0" y1="0" x2="${WIDTH}" y2="${HEIGHT}" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="${palette.bg0}"/>
-      <stop offset="0.58" stop-color="${palette.bg1}"/>
+      <stop offset="0.58" stop-color="${palette.bg1}">${bgAnimation}</stop>
       <stop offset="1" stop-color="${palette.bg2}"/>
     </linearGradient>
     <linearGradient id="${id}-frame" x1="24" y1="24" x2="1176" y2="396" gradientUnits="userSpaceOnUse">
       <stop stop-color="#4B5563"/>
-      <stop offset="0.55" stop-color="${palette.red}"/>
+      <stop offset="0.55" stop-color="${palette.red}" stop-opacity="0.82">${frameAnimation}</stop>
       <stop offset="1" stop-color="${palette.red2}"/>
     </linearGradient>
     <linearGradient id="${id}-line" x1="0" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="${palette.line}" stop-opacity="0.20"/>
-      <stop offset="0.5" stop-color="${palette.red2}" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="${palette.red2}" stop-opacity="0.62">${lineAnimation}</stop>
       <stop offset="1" stop-color="${palette.line}" stop-opacity="0.20"/>
     </linearGradient>
     <pattern id="${id}-grid" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -178,18 +190,33 @@ function baseDefs(id) {
   `);
 }
 
-function baseFrame(id, children) {
+function baseFrame(id, children, { animated = false } = {}) {
+  const frame = animated
+    ? tag("rect", {
+        x: 24,
+        y: 24,
+        width: 1152,
+        height: 372,
+        rx: 28,
+        fill: "#0A0D12",
+        "fill-opacity": 0.28,
+        stroke: `url(#${id}-frame)`,
+        "stroke-width": 2,
+        "stroke-opacity": 0.46,
+      }, '<animate attributeName="stroke-opacity" values="0.34;0.56;0.34" dur="9s" repeatCount="indefinite"/>')
+    : rect(24, 24, 1152, 372, {
+        rx: 28,
+        fill: "#0A0D12",
+        "fill-opacity": 0.28,
+        stroke: `url(#${id}-frame)`,
+        "stroke-width": 2,
+        "stroke-opacity": 0.46,
+      });
+
   return [
     rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-bg)` }),
     rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-grid)` }),
-    rect(24, 24, 1152, 372, {
-      rx: 28,
-      fill: "#0A0D12",
-      "fill-opacity": 0.28,
-      stroke: `url(#${id}-frame)`,
-      "stroke-width": 2,
-      "stroke-opacity": 0.46,
-    }),
+    frame,
     line(24, 110, 1176, { stroke: palette.line, "stroke-opacity": 0.055 }),
     line(24, 314, 1176, { stroke: palette.line, "stroke-opacity": 0.06 }),
     ...children,
@@ -305,8 +332,8 @@ function metricRail(id, variant) {
   ], { opacity: 0.72 });
 }
 
-function buildCandidate(candidate) {
-  const id = candidate.id;
+function buildCandidate(candidate, { animated = false, outputId = candidate.id } = {}) {
+  const id = outputId;
   const introOptions = candidate.variant === "api"
     ? { badge: "API DELIVERY", line: "Contratos de API · Integración bancaria · Azure DevOps", activeChip: "APIs" }
     : candidate.variant === "credit"
@@ -319,12 +346,12 @@ function buildCandidate(candidate) {
     introPanel(id, introOptions),
     metricRail(id, candidate.variant),
     flowPanel(id, candidate.variant),
-  ]);
+  ], { animated });
 
   return `<svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Manuel Meneses - ${escapeText(candidate.title)}</title>
   <desc id="desc">${escapeText(candidate.description)}</desc>
-  ${baseDefs(id)}
+  ${baseDefs(id, { animated })}
   ${body}
 </svg>
 `;
@@ -337,6 +364,14 @@ for (const candidate of candidates) {
   writeFileSync(join(OUTPUT_DIR, `${candidate.id}.svg`), svg);
   console.log(`generated ${join(OUTPUT_DIR, `${candidate.id}.svg`)}`);
 }
+
+const activeCandidate = candidates.find((candidate) => candidate.id === ACTIVE_CANDIDATE_ID);
+if (!activeCandidate) {
+  throw new Error(`Missing active candidate ${ACTIVE_CANDIDATE_ID}`);
+}
+
+writeFileSync(ACTIVE_OUTPUT, buildCandidate(activeCandidate, { animated: true, outputId: "profile-hero" }));
+console.log(`generated ${ACTIVE_OUTPUT}`);
 
 const index = `# Profile Hero Candidates
 
