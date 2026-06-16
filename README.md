@@ -70,6 +70,8 @@ Construyo sistemas backend y full-stack de misión crítica donde las reglas de 
 | `@skapxd/result` | Manejo de errores type-safe para TypeScript inspirado en `Result` de Rust; reemplaza flujos frágiles basados en excepciones por resultados explícitos. | [GitHub](https://github.com/skapxd/result) · [npm](https://www.npmjs.com/package/@skapxd/result) |
 | `nestjs-events-flow` | Documentación y visualización de flujos de eventos en NestJS para sistemas donde el comportamiento asíncrono debe ser entendible y revisable. | [GitHub](https://github.com/skapxd/nestjs-events-flow) · [npm](https://www.npmjs.com/package/nestjs-events-flow) |
 
+<p><strong>Ecosistema relacionado:</strong> <a href="https://github.com/skapxd/skapxd-eslint"><code>@skapxd/eslint</code></a> mantiene presets ESLint flat config para proyectos TypeScript, React, Astro y Next.js, y complementa el trabajo más estricto de <code>@skapxd/eslint-opinionated</code>. <a href="https://www.npmjs.com/package/@skapxd/eslint">npm</a></p>
+
 ## Señal Técnica Actual
 
 - Sistemas bancarios y FinTech: onboarding digital, originación de crédito, motores de decisión, automatización de reglas de negocio y trazabilidad operativa.
