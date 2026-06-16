@@ -1,22 +1,70 @@
-# Manuel Meneses
+<h1 align="center">Manuel Meneses</h1>
 
-Staff Software Engineer & Solutions Architect enfocado en TypeScript, Node.js, NestJS, Next.js, banca, FinTech, onboarding digital, motores de decisión, orquestación BPMN, APIs empresariales, Azure DevOps y tooling para equipos de ingeniería.
+<p align="center">
+  <strong>Staff Software Engineer & Solutions Architect</strong><br>
+  TypeScript · Node.js · NestJS · Next.js · Banca · FinTech · Azure DevOps
+</p>
+
+<p align="center">
+  <a href="https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf"><img alt="CV" src="https://img.shields.io/badge/CV-ver%20perfil-8B1A1A?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/skapxd/skapxd/main/cv-manuel-meneses.pdf"><img alt="Descargar CV" src="https://img.shields.io/badge/CV-descargar-2A2A2A?style=for-the-badge"></a>
+  <a href="https://linkedin.com/in/skapxd"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-skapxd-0A66C2?style=for-the-badge"></a>
+  <a href="mailto:hola@skapxd.dev"><img alt="Email" src="https://img.shields.io/badge/Email-hola@skapxd.dev-333333?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
+  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Azure DevOps" src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white">
+  <img alt="Playwright" src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white">
+</p>
+
+---
 
 Construyo sistemas backend y full-stack de misión crítica donde las reglas de negocio, la trazabilidad, la confiabilidad y la disciplina de entrega pesan más que la arquitectura decorativa. Mi narrativa técnica actual está centrada en originación de productos financieros, flujos de decisión automatizados, diseño de APIs, CI/CD, automatización de infraestructura y estándares de ingeniería ejecutables.
 
-- Roles objetivo: Staff Software Engineer, Senior Software Engineer, Solutions Architect, TypeScript Architect, Backend Architect, Full-Stack Technical Lead.
-- Stack principal: TypeScript, JavaScript, Node.js, NestJS, Next.js, React, Angular, Python, PostgreSQL, Azure DevOps, Azure App Services, GitHub Actions, Camunda 8 / Zeebe, Playwright, Cypress.
-- Dominios: banca, FinTech, originación de crédito, onboarding digital, motores de decisión, orquestación BPMN, APIs empresariales, tooling para desarrolladores.
-- Contacto: <hola@skapxd.dev>
-- CV: [ver](https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf) / [descargar](https://raw.githubusercontent.com/skapxd/skapxd/main/cv-manuel-meneses.pdf)
-- LinkedIn: [linkedin.com/in/skapxd](https://linkedin.com/in/skapxd)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Enfoque profesional</h3>
+      <ul>
+        <li>Staff Software Engineer</li>
+        <li>Solutions Architect</li>
+        <li>TypeScript / Backend Architect</li>
+        <li>Full-Stack Technical Lead</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Dominios fuertes</h3>
+      <ul>
+        <li>Banca y FinTech</li>
+        <li>Originación de crédito</li>
+        <li>Onboarding digital</li>
+        <li>Motores de decisión y BPMN</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Stack principal</h3>
+      <p>TypeScript, JavaScript, Node.js, NestJS, Next.js, React, Angular, Python, PostgreSQL, Azure DevOps, Azure App Services, GitHub Actions, Camunda 8 / Zeebe, Playwright y Cypress.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Señal técnica</h3>
+      <p>APIs empresariales, límites backend, CI/CD, infraestructura automatizada, observabilidad, manejo resiliente de errores y tooling para reducir fricción en equipos de ingeniería.</p>
+    </td>
+  </tr>
+</table>
 
 ## Tooling Público
 
-| Proyecto | Qué demuestra | Enlaces |
+| Proyecto | Señal técnica | Enlaces |
 | --- | --- | --- |
-| `@skapxd/eslint-opinionated` | Reglas arquitectónicas reutilizables para proyectos TypeScript, React, backend, frontend y paquetes. Convierte estándares de ingeniería en validaciones ejecutables. | [GitHub](https://github.com/skapxd/eslint-opinionated) · [npm](https://www.npmjs.com/package/@skapxd/eslint-opinionated) |
-| `@skapxd/excel2md` | Conversión de Excel a Markdown preservando fórmulas y coordenadas de celdas, útil para extraer contexto hacia agentes de AI sin perder trazabilidad. | [GitHub](https://github.com/skapxd/excel2md) · [npm](https://www.npmjs.com/package/@skapxd/excel2md) · [Web](https://excel2md-web.vercel.app/) |
+| `@skapxd/eslint-opinionated` | Reglas arquitectónicas reutilizables para TypeScript, React, backend, frontend y paquetes. Convierte estándares de ingeniería en validaciones ejecutables. | [GitHub](https://github.com/skapxd/eslint-opinionated) · [npm](https://www.npmjs.com/package/@skapxd/eslint-opinionated) |
+| `@skapxd/excel2md` | Conversión de Excel a Markdown preservando fórmulas y coordenadas de celdas para pasar hojas complejas a agentes de AI sin perder trazabilidad. | [GitHub](https://github.com/skapxd/excel2md) · [npm](https://www.npmjs.com/package/@skapxd/excel2md) · [Web](https://excel2md-web.vercel.app/) |
 | `@skapxd/tree` | CLI para estructura de proyectos y outlines de archivos, orientado a documentación, inspección de codebases y contexto legible para AI. | [GitHub](https://github.com/skapxd/tree) · [npm](https://www.npmjs.com/package/@skapxd/tree) |
 | `@skapxd/result` | Manejo de errores type-safe para TypeScript inspirado en `Result` de Rust; reemplaza flujos frágiles basados en excepciones por resultados explícitos. | [GitHub](https://github.com/skapxd/result) · [npm](https://www.npmjs.com/package/@skapxd/result) |
 | `nestjs-events-flow` | Documentación y visualización de flujos de eventos en NestJS para sistemas donde el comportamiento asíncrono debe ser entendible y revisable. | [GitHub](https://github.com/skapxd/nestjs-events-flow) · [npm](https://www.npmjs.com/package/nestjs-events-flow) |
@@ -34,11 +82,13 @@ Construyo sistemas backend y full-stack de misión crítica donde las reglas de 
 
 ## Enlaces Públicos Verificados
 
-Estas son las superficies públicas que deben permanecer visibles desde este perfil:
+<p>
+  <a href="https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf">CV PDF</a> ·
+  <a href="https://excel2md-web.vercel.app/">Aplicación web de excel2md</a> ·
+  <a href="https://github.com/skapxd?tab=repositories">Repositorios en GitHub</a> ·
+  <a href="https://www.npmjs.com/~skapxd">Paquetes npm</a>
+</p>
 
-- [CV PDF](https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf)
-- [Aplicación web de excel2md](https://excel2md-web.vercel.app/)
-- [Repositorios en GitHub](https://github.com/skapxd?tab=repositories)
-- [Paquetes npm](https://www.npmjs.com/~skapxd)
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd&layout=compact" alt="Lenguajes principales" style="max-width: 100%;">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd&layout=compact&theme=dark" alt="Lenguajes principales" style="max-width: 100%;">
+</p>
