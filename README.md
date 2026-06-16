@@ -1,79 +1,97 @@
-
-<h1 align="center">Hola 👋, me llamo Manuel Meneses</h1>
-<h3 align="center">Soy un desarrollador Web Full Stack</h3>
-
-- 🔭 Actualmente trabajo en One Sigma
-- 🌱 Actualmente estoy especializandome en **Testing end to end**
-- 💬 Preguntame por **JavaScript, Node, React, TypeScript y Playwright**
-- 📫 Como contactarme **<hola@skapxd.dev>**
-- 📄 Puedes ver mi [cv](https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf) y [descargarlo](https://raw.githubusercontent.com/skapxd/skapxd/main/cv-manuel-meneses.pdf
-)
-
-
-### **Articulos creados**
-[Sagas Coreografiadas en NestJS](https://medium.com/@manulondoo/adi%C3%B3s-al-infierno-del-debugging-coreografiando-sagas-en-nestjs-sin-perder-la-cordura-d27d091b9b76)
-
-### **Webs creada**
-| Web | Repositorio | Intension | 
-| -------- | -------- | -------- |  
-| [All App](https://all-app.skapxd.dev)         | [Repositorio](https://github.com/skapxd/next-all-app) | [Intención](https://html-to-pdf.skapxd.dev) |
-| [Audiophile](https://audiophile.skapxd.dev/)  | [Repositorio](https://github.com/skapxd/audiophile)   | [Intención](https://html-to-pdf.skapxd.dev) |
-| [temporal mail](https://restmail.skapxd.dev/) | [Repositorio](https://github.com/skapxd/restmail-gui) | [Intención](https://html-to-pdf.skapxd.dev) |
-| [lost magic](https://lost-magic.skapxd.dev/) | [Repositorio](https://github.com/skapxd/clone-lost-magic-astro) | [Intención](https://html-to-pdf.skapxd.dev) |
-| [Dynamic Mocks](https://dynamic-mock.skapxd.dev/) | [Repositorio](https://github.com/skapxd/clone-lost-magic-astro) | [Intención](https://html-to-pdf.skapxd.dev) |
-
-### **Herramientas creada**
-| URL | Repositorio | Intension | 
-| -------- | -------- | -------- |  
-| [html to pdf](https://html-to-pdf.skapxd.dev) | [Repositorio](https://github.com/skapxd/html-to-pdf)  | [Intención](https://html-to-pdf.skapxd.dev) |
-| [json2nestDto](https://js-json-2-nestjs-dto.vercel.app/) | [Repositorio](https://github.com/skapxd/html-to-pdf)  | [Intención](https://html-to-pdf.skapxd.dev) |
-| [send free email](https://send-email.skapxd.dev) | [Repositorio](https://github.com/skapxd/send-email)| [Intención](https://html-to-pdf.skapxd.dev) |
-| [pixel-2-svg](https://pixel-2-svg.skapxd.dev/) | [Repositorio](https://github.com/skapxd/pixel-2-svg) | [Intención](https://html-to-pdf.skapxd.dev) |
-| [test view](https://playwright-viewer-production.up.railway.app/) | [Repositorio](https://github.com/skapxd/playwright-viewer) | [Intención](https://html-to-pdf.skapxd.dev) |
-
-### **Automatizaciones creadas**
-| Test result | Web | Intension | 
-| -------- | -------- | -------- |  
-| [Result Viewer](https://test-result-view.skapxd.dev/view/08fcef8a-d7e7-4c9c-bf9a-edb001080099) | [01-tinder-swipe](https://www.javascript100.dev/01-tinder-swipe) | [Intención](https://html-to-pdf.skapxd.dev) |
-
-
-<h3 align="left">Conectate conmigo:</h3>
-
-<p align="left">
-<a href="https://linkedin.com/in/skapxd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="skapxd" height="30" width="40" /></a>
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Manuel Meneses - Staff Software Engineer & Solutions Architect" width="100%">
 </p>
 
-<h3 align="left">Idiomas y herramientas:</h3>
-<p align="left"> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a>
- <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>
- <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
- <a href="https://www.cypress.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="40" height="40"/> </a>
- <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a>
- <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
- <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>
- <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
- <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
- <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a>
- <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
- <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>
- <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
- <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a>
- <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
- <a href="https://materializecss.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> </a>
- <a href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a>
- <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
- <a href="https://nestjs.com/" target="_blank" rel="noreferrer"> <img src="https://nestjs.com/logo-small-gradient.76616405.svg" alt="nestjs" width="40" height="40"/> </a>
- <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a>
- <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
- <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
- <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a>
- <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
- <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a>
- <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a>
- <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a>
- <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
- <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a>
- </p>
+<p align="center">
+  <strong>Arquitectura de software, sistemas financieros y tooling ejecutable para equipos TypeScript.</strong>
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd" alt="Top Langs" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd&amp;layout=compact" style="max-width: 100%;">
+<p align="center">
+  <a href="https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf"><img alt="CV" src="https://img.shields.io/badge/CV-ver%20perfil-8B1A1A?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/skapxd/skapxd/main/cv-manuel-meneses.pdf"><img alt="Descargar CV" src="https://img.shields.io/badge/CV-descargar-2A2A2A?style=for-the-badge"></a>
+  <a href="https://linkedin.com/in/skapxd"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-skapxd-0A66C2?style=for-the-badge"></a>
+  <a href="mailto:hola@skapxd.dev"><img alt="Email" src="https://img.shields.io/badge/Email-hola@skapxd.dev-333333?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
+  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Azure DevOps" src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white">
+  <img alt="Playwright" src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white">
+</p>
+
+---
+
+Construyo sistemas backend y full-stack de misión crítica donde las reglas de negocio, la trazabilidad, la confiabilidad y la disciplina de entrega pesan más que la arquitectura decorativa. Mi narrativa técnica actual está centrada en originación de productos financieros, flujos de decisión automatizados, diseño de APIs, CI/CD, automatización de infraestructura y estándares de ingeniería ejecutables.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Enfoque profesional</h3>
+      <ul>
+        <li>Staff Software Engineer</li>
+        <li>Solutions Architect</li>
+        <li>TypeScript / Backend Architect</li>
+        <li>Full-Stack Technical Lead</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Dominios fuertes</h3>
+      <ul>
+        <li>Banca y FinTech</li>
+        <li>Originación de crédito</li>
+        <li>Onboarding digital</li>
+        <li>Motores de decisión y BPMN</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Stack principal</h3>
+      <p>TypeScript, JavaScript, Node.js, NestJS, Next.js, React, Angular, Python, PostgreSQL, Azure DevOps, Azure App Services, GitHub Actions, Camunda 8 / Zeebe, Playwright y Cypress.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Señal técnica</h3>
+      <p>APIs empresariales, límites backend, CI/CD, infraestructura automatizada, observabilidad, manejo resiliente de errores y tooling para reducir fricción en equipos de ingeniería.</p>
+    </td>
+  </tr>
+</table>
+
+## Tooling Público
+
+| Proyecto | Señal técnica | Enlaces |
+| --- | --- | --- |
+| `@skapxd/eslint-opinionated` | Reglas arquitectónicas reutilizables para TypeScript, React, backend, frontend y paquetes. Convierte estándares de ingeniería en validaciones ejecutables. | [GitHub](https://github.com/skapxd/eslint-opinionated) · [npm](https://www.npmjs.com/package/@skapxd/eslint-opinionated) |
+| `@skapxd/excel2md` | Conversión de Excel a Markdown preservando fórmulas y coordenadas de celdas para pasar hojas complejas a agentes de AI sin perder trazabilidad. | [GitHub](https://github.com/skapxd/excel2md) · [npm](https://www.npmjs.com/package/@skapxd/excel2md) · [Web](https://excel2md-web.vercel.app/) |
+| `@skapxd/tree` | CLI para estructura de proyectos y outlines de archivos, orientado a documentación, inspección de codebases y contexto legible para AI. | [GitHub](https://github.com/skapxd/tree) · [npm](https://www.npmjs.com/package/@skapxd/tree) |
+| `@skapxd/result` | Manejo de errores type-safe para TypeScript inspirado en `Result` de Rust; reemplaza flujos frágiles basados en excepciones por resultados explícitos. | [GitHub](https://github.com/skapxd/result) · [npm](https://www.npmjs.com/package/@skapxd/result) |
+| `nestjs-events-flow` | Documentación y visualización de flujos de eventos en NestJS para sistemas donde el comportamiento asíncrono debe ser entendible y revisable. | [GitHub](https://github.com/skapxd/nestjs-events-flow) · [npm](https://www.npmjs.com/package/nestjs-events-flow) |
+
+<p><strong>Ecosistema relacionado:</strong> <a href="https://github.com/skapxd/skapxd-eslint"><code>@skapxd/eslint</code></a> mantiene presets ESLint flat config para proyectos TypeScript, React, Astro y Next.js, y complementa el trabajo más estricto de <code>@skapxd/eslint-opinionated</code>. <a href="https://www.npmjs.com/package/@skapxd/eslint">npm</a></p>
+
+## Señal Técnica Actual
+
+- Sistemas bancarios y FinTech: onboarding digital, originación de crédito, motores de decisión, automatización de reglas de negocio y trazabilidad operativa.
+- Ejecución arquitectónica: contratos de API, límites backend, CI/CD, automatización de infraestructura, delivery en Azure, observabilidad y manejo resiliente de errores.
+- Ingeniería asistida por AI: herramientas y flujos que hacen más consumible el contexto de repositorios, hojas de cálculo, estándares de lint y entradas de revisión de código.
+- Disciplina de producto: los artefactos públicos deben cargar, explicar el posicionamiento más fuerte y evitar demos obsoletas o enlaces a repos privados que terminan en 404 para visitantes externos.
+
+## Escritura Seleccionada
+
+- [Sagas Coreografiadas en NestJS](https://medium.com/@manulondoo/adi%C3%B3s-al-infierno-del-debugging-coreografiando-sagas-en-nestjs-sin-perder-la-cordura-d27d091b9b76)
+
+## Enlaces Públicos Verificados
+
+<p>
+  <a href="https://github.com/skapxd/skapxd/blob/main/cv-manuel-meneses.pdf">CV PDF</a> ·
+  <a href="https://excel2md-web.vercel.app/">Aplicación web de excel2md</a> ·
+  <a href="https://github.com/skapxd?tab=repositories">Repositorios en GitHub</a> ·
+  <a href="https://www.npmjs.com/~skapxd">Paquetes npm</a>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skapxd&layout=compact&theme=dark" alt="Lenguajes principales" style="max-width: 100%;">
+</p>
