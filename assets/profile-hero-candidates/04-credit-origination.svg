@@ -7,15 +7,20 @@
       <stop offset="0.58" stop-color="#10141B"></stop>
       <stop offset="1" stop-color="#171014"/>
     </linearGradient>
+    <linearGradient id="04-credit-origination-bg-accent" x1="0" y1="70" x2="1200" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E293B" stop-opacity="0.18"/>
+      <stop offset="0.52" stop-color="#8B1A1A" stop-opacity="0.32"></stop>
+      <stop offset="1" stop-color="#C0392B" stop-opacity="0.24"/>
+    </linearGradient>
     <linearGradient id="04-credit-origination-frame" x1="24" y1="24" x2="1176" y2="396" gradientUnits="userSpaceOnUse">
       <stop stop-color="#4B5563"/>
       <stop offset="0.55" stop-color="#8B1A1A" stop-opacity="0.82"></stop>
       <stop offset="1" stop-color="#C0392B"/>
     </linearGradient>
     <linearGradient id="04-credit-origination-line" x1="0" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#D8DEE9" stop-opacity="0.20"/>
-      <stop offset="0.5" stop-color="#C0392B" stop-opacity="0.62"></stop>
-      <stop offset="1" stop-color="#D8DEE9" stop-opacity="0.20"/>
+      <stop stop-color="#D8DEE9" stop-opacity="0.24"/>
+      <stop offset="0.45" stop-color="#8B1A1A" stop-opacity="0.78"></stop>
+      <stop offset="1" stop-color="#F0A39B" stop-opacity="0.38"/>
     </linearGradient>
     <pattern id="04-credit-origination-grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" stroke="#D8DEE9" stroke-opacity="0.042"/>
@@ -30,10 +35,11 @@
 </style>
   </defs>
   <rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#04-credit-origination-bg)"/>
+<rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#04-credit-origination-bg-accent)" fill-opacity="0.42"/>
 <rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#04-credit-origination-grid)"/>
 <rect x="24" y="24" width="1152" height="372" rx="28" fill="#0A0D12" fill-opacity="0.28" stroke="url(#04-credit-origination-frame)" stroke-width="2" stroke-opacity="0.46"/>
-<path d="M24 110H1176" stroke="#D8DEE9" stroke-opacity="0.055"/>
-<path d="M24 314H1176" stroke="#D8DEE9" stroke-opacity="0.06"/>
+<path d="M24 110H1176" stroke="url(#04-credit-origination-line)" stroke-opacity="0.18"/>
+<path d="M24 314H1176" stroke="url(#04-credit-origination-line)" stroke-opacity="0.16"/>
 <rect x="64" y="64" width="576" height="292" rx="20" fill="#0F141B" fill-opacity="0.9" stroke="#D8DEE9" stroke-opacity="0.09"/>
 <rect x="92" y="92" width="214" height="42" rx="9" fill="#FFFFFF" fill-opacity="0.052" stroke="#D8DEE9" stroke-opacity="0.13"/>
 <rect x="107" y="116" width="5" height="8" rx="1" fill="#F3B6AF"/>

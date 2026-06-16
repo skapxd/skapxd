@@ -158,13 +158,19 @@ function badge(x, y, label, icon = "bars") {
 
 function baseDefs(id, { animated = false } = {}) {
   const bgAnimation = animated
-    ? '<animate attributeName="stop-color" values="#10141B;#131820;#10141B" dur="14s" repeatCount="indefinite"/>'
+    ? '<animate attributeName="stop-color" values="#10141B;#21151A;#10141B" dur="14s" repeatCount="indefinite"/>'
+    : "";
+  const bgAccentAnimation = animated
+    ? '<animate attributeName="stop-opacity" values="0.30;0.58;0.30" dur="11s" repeatCount="indefinite"/>'
     : "";
   const frameAnimation = animated
-    ? '<animate attributeName="stop-opacity" values="0.70;1;0.70" dur="9s" repeatCount="indefinite"/>'
+    ? '<animate attributeName="stop-opacity" values="0.74;1;0.74" dur="9s" repeatCount="indefinite"/>'
     : "";
   const lineAnimation = animated
-    ? '<animate attributeName="stop-opacity" values="0.38;0.72;0.38" dur="6.5s" repeatCount="indefinite"/>'
+    ? '<animate attributeName="stop-opacity" values="0.48;0.94;0.48" dur="6.5s" repeatCount="indefinite"/>'
+    : "";
+  const lineColorAnimation = animated
+    ? '<animate attributeName="stop-color" values="#8B1A1A;#F0A39B;#8B1A1A" dur="8s" repeatCount="indefinite"/>'
     : "";
 
   return tag("defs", {}, `
@@ -173,15 +179,20 @@ function baseDefs(id, { animated = false } = {}) {
       <stop offset="0.58" stop-color="${palette.bg1}">${bgAnimation}</stop>
       <stop offset="1" stop-color="${palette.bg2}"/>
     </linearGradient>
+    <linearGradient id="${id}-bg-accent" x1="0" y1="70" x2="${WIDTH}" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E293B" stop-opacity="0.18"/>
+      <stop offset="0.52" stop-color="${palette.red}" stop-opacity="0.32">${bgAccentAnimation}</stop>
+      <stop offset="1" stop-color="${palette.red2}" stop-opacity="0.24"/>
+    </linearGradient>
     <linearGradient id="${id}-frame" x1="24" y1="24" x2="1176" y2="396" gradientUnits="userSpaceOnUse">
       <stop stop-color="#4B5563"/>
       <stop offset="0.55" stop-color="${palette.red}" stop-opacity="0.82">${frameAnimation}</stop>
       <stop offset="1" stop-color="${palette.red2}"/>
     </linearGradient>
     <linearGradient id="${id}-line" x1="0" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="${palette.line}" stop-opacity="0.20"/>
-      <stop offset="0.5" stop-color="${palette.red2}" stop-opacity="0.62">${lineAnimation}</stop>
-      <stop offset="1" stop-color="${palette.line}" stop-opacity="0.20"/>
+      <stop stop-color="${palette.line}" stop-opacity="0.24"/>
+      <stop offset="0.45" stop-color="${palette.red}" stop-opacity="0.78">${lineAnimation}${lineColorAnimation}</stop>
+      <stop offset="1" stop-color="${palette.rose}" stop-opacity="0.38"/>
     </linearGradient>
     <pattern id="${id}-grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" stroke="${palette.line}" stroke-opacity="0.042"/>
@@ -215,10 +226,11 @@ function baseFrame(id, children, { animated = false } = {}) {
 
   return [
     rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-bg)` }),
+    rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-bg-accent)`, "fill-opacity": animated ? 0.72 : 0.42 }),
     rect(0, 0, WIDTH, HEIGHT, { rx: 28, fill: `url(#${id}-grid)` }),
     frame,
-    line(24, 110, 1176, { stroke: palette.line, "stroke-opacity": 0.055 }),
-    line(24, 314, 1176, { stroke: palette.line, "stroke-opacity": 0.06 }),
+    line(24, 110, 1176, { stroke: `url(#${id}-line)`, "stroke-opacity": 0.18 }),
+    line(24, 314, 1176, { stroke: `url(#${id}-line)`, "stroke-opacity": 0.16 }),
     ...children,
   ].join("\n");
 }
