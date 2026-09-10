@@ -28,6 +28,9 @@ El SVG es tanto la fuente editable como el recurso que usa el README.
 ## Revisión local
 
 Abrir [`preview-final.html`](../preview-final.html) directamente en un navegador.
-La vista utiliza el archivo real mediante `<img>` y permite revisarlo en un
-ancho grande y en 390 px. Activar la preferencia de movimiento reducido del
-sistema o del navegador para comprobar el estado estático.
+La vista muestra el SVG real mediante `<img>` junto a la presentación, los
+enlaces de contacto y el primer artículo del README. Los controles permiten
+revisar el conjunto en escritorio y con un contenedor de 390 px. El fragmento
+se renderizó con GitHub Markdown; sincronizarlo cuando cambie la presentación.
+Activar la preferencia de movimiento reducido del sistema o del navegador
+para comprobar el estado estático.
