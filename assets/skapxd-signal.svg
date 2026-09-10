@@ -1,116 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none" role="img" aria-labelledby="title description">
-  <title id="title">skapxd — sistemas, APIs y herramientas</title>
-  <desc id="description">El alias skapxd en letras geométricas de marfil y cobre, sobre un campo de líneas color vino. Un pulso de luz recorre los trazos y se detiene. TypeScript, Node.js y arquitectura de software.</desc>
-  <defs>
-    <linearGradient id="background" x2="1200" y2="480" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#24131F"/>
-      <stop offset=".52" stop-color="#160F1B"/>
-      <stop offset="1" stop-color="#311625"/>
-    </linearGradient>
-    <radialGradient id="atmosphere" cx=".73" cy=".48" r=".65">
-      <stop stop-color="#B75151" stop-opacity=".25"/>
-      <stop offset="1" stop-color="#B75151" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="ivory" x1="130" y1="140" x2="970" y2="330" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF3DD"/>
-      <stop offset=".48" stop-color="#F9DCCB"/>
-      <stop offset="1" stop-color="#DA9F93"/>
-    </linearGradient>
-    <linearGradient id="copper" x1="90" y1="140" x2="1050" y2="350" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#9C514F"/>
-      <stop offset=".55" stop-color="#69333E"/>
-      <stop offset="1" stop-color="#BC7060"/>
-    </linearGradient>
-    <linearGradient id="thread" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#D8907B" stop-opacity=".04"/>
-      <stop offset=".4" stop-color="#D8907B" stop-opacity=".25"/>
-      <stop offset=".7" stop-color="#D8907B" stop-opacity=".55"/>
-      <stop offset="1" stop-color="#D8907B" stop-opacity=".08"/>
-    </linearGradient>
-    <linearGradient id="sheen">
-      <stop stop-color="#FFF9EE" stop-opacity="0"/>
-      <stop offset=".46" stop-color="#FFF9EE" stop-opacity=".1"/>
-      <stop offset=".5" stop-color="#FFF9EE" stop-opacity=".95"/>
-      <stop offset=".62" stop-color="#FFF9EE" stop-opacity=".2"/>
-      <stop offset="1" stop-color="#FFF9EE" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="canvas">
-      <rect width="1200" height="480" rx="20"/>
-    </clipPath>
-    <!-- Hand-drawn letter paths are shared by the relief, face and light pass. -->
-    <g id="wordmark" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M191 182H125C88 182 88 233 125 233H164C203 233 203 286 164 286H96"/>
-      <path d="M267 142V286M365 182L267 238M315 212L371 286"/>
-      <path d="M533 286V184H478C420 184 420 286 478 286H533"/>
-      <path d="M601 336V184H655C720 184 720 286 655 286H601"/>
-      <path d="M776 184L877 286M877 184L776 286"/>
-      <path d="M1054 142V286H999C941 286 941 184 999 184H1054"/>
+<title id="title">Skapxd — Núcleo de luz</title><desc id="description">La x concentra el latido: un resplandor cálido crece detrás de ella y se apaga en dos tiempos. Loop de 1,4 segundos. Con movimiento reducido, el nombre permanece estático.</desc>
+<defs><linearGradient id="section-accent" x1="48" x2="460" gradientUnits="userSpaceOnUse"><stop stop-color="#8B1A1A" stop-opacity=".62"/><stop offset="1" stop-color="#8B1A1A" stop-opacity="0"/></linearGradient><clipPath id="canvas"><rect width="1200" height="480" rx="8"/></clipPath>
+    <g id="wordmark-main">
+      <path d="M213.93 325.28Q187.91 325.28 169.43 316.98Q150.94 308.69 141.14 292.98Q131.34 277.27 131.34 255.19H171.93Q172.15 266.29 177.27 274.28Q182.4 282.26 191.84 286.51Q201.28 290.75 214.3 290.75Q226.03 290.75 234.71 287.52Q243.39 284.29 248.25 278.4Q253.11 272.51 253.11 264.6Q253.11 258.05 249.37 253.16Q245.63 248.27 237.58 244.63Q229.54 240.98 216.55 238.16L195.12 233.52Q164.83 226.97 150.06 212.86Q135.29 198.76 135.29 176.94Q135.29 158.34 144.97 144.44Q154.65 130.53 172.06 122.77Q189.47 115.01 212.58 115.01Q236.06 115.01 253.15 122.92Q270.25 130.83 279.74 145.56Q289.22 160.3 289.85 180.81H250.45Q249.43 166.24 239.32 157.92Q229.22 149.6 212.79 149.6Q202.47 149.6 194.47 152.83Q186.46 156.06 181.9 161.75Q177.35 167.44 177.35 174.9Q177.35 181.2 180.93 185.75Q184.52 190.3 192.29 193.75Q200.06 197.19 212.54 199.92L232.03 204.18Q248.33 207.65 260.2 212.78Q272.06 217.9 279.71 224.95Q287.37 232.01 291.07 241.17Q294.78 250.33 294.78 261.81Q294.78 281.44 285.03 295.69Q275.28 309.94 257.16 317.61Q239.04 325.28 213.93 325.28Z"/>
+      <path d="M351.07 280.38V232.9H355.28L405.95 177.62H453.15L387.75 250.27H378.48ZM314.64 322V118.29H354.86V322ZM409.08 322 363.43 259.15 390.02 231.06 456.18 322Z"/>
+      <path d="M508.89 324.41Q494.46 324.41 483.26 319.63Q472.06 314.86 465.62 305.27Q459.17 295.68 459.17 281.32Q459.17 269.03 463.69 260.9Q468.21 252.78 476.05 247.82Q483.89 242.86 494.1 240.28Q504.31 237.69 515.56 236.62Q528.78 235.3 536.6 234.08Q544.41 232.87 547.8 230.53Q551.19 228.2 551.19 223.54V222.62Q551.19 217.27 548.35 213.22Q545.51 209.16 540.26 206.86Q535 204.55 527.61 204.55Q520.14 204.55 514.48 206.91Q508.83 209.26 505.54 213.49Q502.25 217.72 501.7 223.34H463.8Q464.78 208.38 472.67 197.47Q480.56 186.55 494.76 180.57Q508.97 174.6 528.79 174.6Q543.59 174.6 555.17 177.98Q566.76 181.36 574.75 187.79Q582.74 194.23 586.86 203.39Q590.99 212.54 590.99 224.09V322H551.63V301.64H551.08Q547.3 308.68 541.66 313.8Q536.01 318.91 527.98 321.66Q519.95 324.41 508.89 324.41ZM520 296.47Q529.71 296.47 536.79 292.89Q543.87 289.31 547.68 283.18Q551.48 277.04 551.48 269.23V254.73Q549.75 255.66 546.86 256.54Q543.98 257.41 540.15 258.21Q536.33 259.02 531.83 259.79Q527.34 260.56 522.44 261.31Q515.57 262.33 509.97 264.59Q504.36 266.85 501.04 270.63Q497.72 274.41 497.72 280.18Q497.72 285.26 500.5 288.93Q503.27 292.6 508.27 294.53Q513.27 296.47 520 296.47Z"/>
+      <path d="M615.49 379.15V177.62H655.16V197.18H655.66Q660.08 189.63 666.49 184.63Q672.9 179.63 681.02 177.11Q689.14 174.6 698.44 174.6Q716.94 174.6 730.91 184.1Q744.88 193.61 752.75 210.53Q760.62 227.45 760.62 249.66Q760.62 272.26 752.86 289.21Q745.1 306.17 731.1 315.6Q717.09 325.03 698.15 325.03Q688.7 325.03 680.73 322.25Q672.76 319.48 666.53 314.01Q660.29 308.54 656.13 300.42H655.71V379.15ZM687.73 292.23Q697.57 292.23 704.78 287.22Q711.99 282.21 715.98 272.69Q719.97 263.17 719.97 249.66Q719.97 236.1 715.98 226.65Q711.99 217.2 704.78 212.2Q697.57 207.19 687.73 207.19Q677.58 207.19 669.91 212.45Q662.24 217.71 658.02 227.22Q653.79 236.73 653.79 249.66Q653.79 262.54 658.02 272.12Q662.24 281.71 669.91 286.97Q677.58 292.23 687.73 292.23Z"/>
+      <path d="M981.34 325.03Q962.54 325.03 948.46 315.6Q934.38 306.17 926.63 289.21Q918.87 272.26 918.87 249.66Q918.87 227.45 926.74 210.53Q934.61 193.61 948.64 184.1Q962.68 174.6 981.05 174.6Q990.48 174.6 998.4 177.11Q1006.31 179.63 1012.66 184.71Q1019 189.78 1023.58 197.62H1023.78V118.29H1064V322H1024.33V299.83H1024.13Q1019.96 308.24 1013.56 313.86Q1007.15 319.48 999 322.25Q990.85 325.03 981.34 325.03ZM991.76 292.23Q1001.99 292.23 1009.61 286.97Q1017.24 281.71 1021.47 272.12Q1025.69 262.54 1025.69 249.66Q1025.69 236.73 1021.47 227.22Q1017.24 217.71 1009.61 212.45Q1001.99 207.19 991.76 207.19Q982.05 207.19 974.78 212.2Q967.5 217.2 963.51 226.65Q959.51 236.1 959.51 249.66Q959.51 263.17 963.51 272.69Q967.5 282.21 974.78 287.22Q982.05 292.23 991.76 292.23Z"/>
     </g>
-    <mask id="wordmark-mask" maskUnits="userSpaceOnUse" x="60" y="120" width="1020" height="240">
-      <use href="#wordmark" stroke="white" stroke-width="28"/>
-    </mask>
-    <!-- Continuous paths hint at signals becoming an ordered system. -->
-    <g id="field" stroke="url(#thread)" stroke-width="1">
-      <path d="M-80 138C180 138 259 378 496 378S699 70 918 70S1110 164 1280 164"/>
-      <path d="M-80 150C180 150 266 366 496 366S709 82 918 82S1110 176 1280 176"/>
-      <path d="M-80 162C180 162 273 354 496 354S719 94 918 94S1110 188 1280 188"/>
-      <path d="M-80 174C180 174 280 342 496 342S729 106 918 106S1110 200 1280 200"/>
-      <path d="M-80 186C180 186 287 330 496 330S739 118 918 118S1110 212 1280 212"/>
-      <path d="M-80 198C180 198 294 318 496 318S749 130 918 130S1110 224 1280 224"/>
-      <path d="M-80 210C180 210 301 306 496 306S759 142 918 142S1110 236 1280 236"/>
-      <path d="M-80 222C180 222 308 294 496 294S769 154 918 154S1110 248 1280 248"/>
-      <path d="M-80 234C180 234 315 282 496 282S779 166 918 166S1110 260 1280 260"/>
-      <path d="M-80 246C180 246 322 270 496 270S789 178 918 178S1110 272 1280 272"/>
-      <path d="M-80 258C180 258 329 258 496 258S799 190 918 190S1110 284 1280 284"/>
-      <path d="M-80 270C180 270 336 246 496 246S809 202 918 202S1110 296 1280 296"/>
-    </g>
-    <style>
-      .label { font: 500 17px Menlo, Consolas, "Liberation Mono", monospace; letter-spacing: 2px; }
-      .caption { font: 400 22px "Avenir Next", Avenir, "Segoe UI", sans-serif; }
-      .stack { font: 400 18px Menlo, Consolas, "Liberation Mono", monospace; }
-      .light { opacity: 0; }
-      /* A single entrance ends before five seconds; the static face is always visible. */
-      @media (prefers-reduced-motion: no-preference) {
-        .light { animation: sweep 4.6s cubic-bezier(.2, .6, .3, 1) both; }
-        .signal { animation: signal 4.6s ease-in-out both; }
-      }
-      @keyframes sweep {
-        0%, 8% { opacity: 0; transform: translateX(0); }
-        18%, 80% { opacity: 1; }
-        100% { opacity: 0; transform: translateX(1760px); }
-      }
-      @keyframes signal {
-        0% { opacity: 0; stroke-dashoffset: 1500; }
-        25%, 60% { opacity: .8; }
-        100% { opacity: 0; stroke-dashoffset: -1500; }
-      }
-      @media (max-width: 600px) {
-        .detail { display: none; }
-        .caption { font-size: 36px; }
-        .label { font-size: 26px; letter-spacing: 1px; }
-      }
-    </style>
-  </defs>
-  <g clip-path="url(#canvas)">
-    <rect width="1200" height="480" fill="url(#background)"/>
-    <rect width="1200" height="480" fill="url(#atmosphere)"/>
-    <use href="#field"/>
-    <path class="signal" d="M-80 174C180 174 280 342 496 342S729 106 918 106S1110 200 1280 200" stroke="#EDB89A" stroke-width="2" stroke-dasharray="90 1500" opacity="0"/>
-    <path d="M56 94H1144M56 386H1144" stroke="#D8907B" stroke-opacity=".18"/>
-    <text x="56" y="62" class="label" fill="#E3B5A5">SKAPXD / SOFTWARE ENGINEER</text>
-    <text x="1144" y="62" text-anchor="end" class="label detail" fill="#BE959E">SISTEMAS · APIs · TOOLING</text>
-    <!-- Offset strokes produce solid depth without raster assets or font downloads. -->
-    <use href="#wordmark" transform="translate(0 19)" stroke="#110B13" stroke-width="36"/>
-    <use href="#wordmark" transform="translate(0 12)" stroke="url(#copper)" stroke-width="28"/>
-    <use href="#wordmark" transform="translate(0 6)" stroke="url(#copper)" stroke-width="28"/>
-    <use href="#wordmark" stroke="url(#ivory)" stroke-width="28"/>
-    <use href="#wordmark" transform="translate(0 -8)" stroke="#FFF3DD" stroke-width="1" opacity=".48"/>
-    <g mask="url(#wordmark-mask)">
-      <path class="light" d="M-500 120H-120L-200 360H-580Z" fill="url(#sheen)"/>
-    </g>
-    <circle cx="61" cy="428" r="5" fill="#E8B69A"/>
-    <text x="80" y="436" class="caption" fill="#F9DCCB">De la complejidad al sistema.</text>
-    <text x="1144" y="436" text-anchor="end" class="stack detail" fill="#D4ABB0">TypeScript / Node.js / Arquitectura</text>
-    <rect x=".5" y=".5" width="1199" height="479" rx="19.5" stroke="#D8907B" stroke-opacity=".2"/>
-  </g>
-</svg>
+    <path id="wordmark-x" d="M766.15 322 824.44 239.05 823.64 256.89 769.74 177.62H813.76L826.45 197.79Q831.96 207.08 836.9 215.64Q841.84 224.19 846.77 232.88H833.88Q839.02 224.19 844 215.64Q848.97 207.08 854.63 197.79L867.59 177.62H910.98L855.76 256.89L856.5 238.99L913.3 322H869.11L854.7 299.82Q849.26 290.8 844.34 282.55Q839.43 274.3 834.49 265.89H845.59Q840.5 274.3 835.56 282.55Q830.62 290.8 824.95 299.82L810.2 322Z"/>
+
+<radialGradient id="core-ramp">
+<stop stop-color="#EA6653" stop-opacity=".75"/>
+<stop offset=".3" stop-color="#C0392B" stop-opacity=".48"/>
+<stop offset=".65" stop-color="#8B1A1A" stop-opacity=".18"/>
+<stop offset="1" stop-color="#8B1A1A" stop-opacity="0"/>
+</radialGradient><clipPath id="hero-zone"><rect x="1" y="81" width="1198" height="320"/></clipPath><style>.label{font:600 18px Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;letter-spacing:1.2px}.caption{font:500 23px Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.stack{font:400 19px Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}@media(max-width:600px){.detail{display:none}.label{font-size:30px;letter-spacing:.5px}.caption{font-size:34px}}
+.heart{fill:#C0392B;transform-origin:840px 250px}
+.core{opacity:0;transform:scale(.85)}
+@media(prefers-reduced-motion:no-preference){
+.heart{animation:heartbeat 1.4s cubic-bezier(.3,0,.25,1) infinite}.core{animation:core 1.4s cubic-bezier(.3,0,.25,1) infinite}
+}
+@keyframes heartbeat{
+0%,4%,44%,100%{transform:scale(1);fill:#C0392B}
+11%{transform:scale(1.032);fill:#E45B48}
+20%{transform:scale(.996);fill:#C0392B}
+29%{transform:scale(1.018);fill:#D34A38}}
+@keyframes core{0%,4%,52%,100%{opacity:0;transform:scale(.85)}12%{opacity:.86;transform:scale(1.12)}22%{opacity:.15;transform:scale(1)}31%{opacity:.56;transform:scale(1.04)}}</style></defs><g clip-path="url(#canvas)"><rect width="1200" height="480" fill="#1A1A1A"/><path d="M0 0H1200V80H0ZM0 402H1200V480H0Z" fill="#121212"/><rect x="48" y="24" width="412" height="40" rx="8" fill="url(#section-accent)"/><text x="68" y="51" class="label" fill="#FFFFFF">MANUEL MENESES</text><text x="1144" y="51" class="label detail" fill="#B0B0B0" text-anchor="end">SISTEMAS · APIs · TOOLING</text>
+<g clip-path="url(#hero-zone)"><g transform="translate(840 250)"><circle class="core" r="164" fill="url(#core-ramp)"/></g></g><use href="#wordmark-main" fill="#FFFFFF"/><use href="#wordmark-x" class="heart" fill="#C0392B"/><path d="M56 425V456" stroke="#C0392B" stroke-width="3"/><text x="76" y="448" class="caption" fill="#B0B0B0">De la complejidad al sistema.</text><text x="1144" y="448" class="stack detail" fill="#B0B0B0" text-anchor="end">TypeScript / Node.js / Arquitectura</text><rect x=".5" y=".5" width="1199" height="479" rx="7.5" stroke="#333333"/></g></svg>
