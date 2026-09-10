@@ -1,6 +1,9 @@
 
-<h1 align="center">Hola 👋, me llamo Manuel Meneses</h1>
-<h3 align="center">Soy un desarrollador Web Full Stack</h3>
+<p align="center">
+  <img src="./assets/skapxd-signal.svg" width="1200" alt="Manuel Meneses · @skapxd — sistemas, APIs y herramientas. TypeScript, Node.js y arquitectura de software." />
+</p>
+
+Soy un desarrollador Web Full Stack.
 
 - 🔭 Actualmente trabajo en Moveo Ventures
 - 🌱 Actualmente estoy especializandome en **Testing end to end**
