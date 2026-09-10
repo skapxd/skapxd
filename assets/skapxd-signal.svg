@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">skapxd — sistemas, APIs y herramientas</title>
+  <desc id="description">El alias skapxd en letras geométricas de marfil y cobre, sobre un campo de líneas color vino. Un pulso de luz recorre los trazos y se detiene. TypeScript, Node.js y arquitectura de software.</desc>
+  <defs>
+    <linearGradient id="background" x2="1200" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24131F"/>
+      <stop offset=".52" stop-color="#160F1B"/>
+      <stop offset="1" stop-color="#311625"/>
+    </linearGradient>
+    <radialGradient id="atmosphere" cx=".73" cy=".48" r=".65">
+      <stop stop-color="#B75151" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#B75151" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ivory" x1="130" y1="140" x2="970" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF3DD"/>
+      <stop offset=".48" stop-color="#F9DCCB"/>
+      <stop offset="1" stop-color="#DA9F93"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="90" y1="140" x2="1050" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9C514F"/>
+      <stop offset=".55" stop-color="#69333E"/>
+      <stop offset="1" stop-color="#BC7060"/>
+    </linearGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8907B" stop-opacity=".04"/>
+      <stop offset=".4" stop-color="#D8907B" stop-opacity=".25"/>
+      <stop offset=".7" stop-color="#D8907B" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#D8907B" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="sheen">
+      <stop stop-color="#FFF9EE" stop-opacity="0"/>
+      <stop offset=".46" stop-color="#FFF9EE" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#FFF9EE" stop-opacity=".95"/>
+      <stop offset=".62" stop-color="#FFF9EE" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#FFF9EE" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="canvas">
+      <rect width="1200" height="480" rx="20"/>
+    </clipPath>
+    <!-- Hand-drawn letter paths are shared by the relief, face and light pass. -->
+    <g id="wordmark" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M191 182H125C88 182 88 233 125 233H164C203 233 203 286 164 286H96"/>
+      <path d="M267 142V286M365 182L267 238M315 212L371 286"/>
+      <path d="M533 286V184H478C420 184 420 286 478 286H533"/>
+      <path d="M601 336V184H655C720 184 720 286 655 286H601"/>
+      <path d="M776 184L877 286M877 184L776 286"/>
+      <path d="M1054 142V286H999C941 286 941 184 999 184H1054"/>
+    </g>
+    <mask id="wordmark-mask" maskUnits="userSpaceOnUse" x="60" y="120" width="1020" height="240">
+      <use href="#wordmark" stroke="white" stroke-width="28"/>
+    </mask>
+    <!-- Continuous paths hint at signals becoming an ordered system. -->
+    <g id="field" stroke="url(#thread)" stroke-width="1">
+      <path d="M-80 138C180 138 259 378 496 378S699 70 918 70S1110 164 1280 164"/>
+      <path d="M-80 150C180 150 266 366 496 366S709 82 918 82S1110 176 1280 176"/>
+      <path d="M-80 162C180 162 273 354 496 354S719 94 918 94S1110 188 1280 188"/>
+      <path d="M-80 174C180 174 280 342 496 342S729 106 918 106S1110 200 1280 200"/>
+      <path d="M-80 186C180 186 287 330 496 330S739 118 918 118S1110 212 1280 212"/>
+      <path d="M-80 198C180 198 294 318 496 318S749 130 918 130S1110 224 1280 224"/>
+      <path d="M-80 210C180 210 301 306 496 306S759 142 918 142S1110 236 1280 236"/>
+      <path d="M-80 222C180 222 308 294 496 294S769 154 918 154S1110 248 1280 248"/>
+      <path d="M-80 234C180 234 315 282 496 282S779 166 918 166S1110 260 1280 260"/>
+      <path d="M-80 246C180 246 322 270 496 270S789 178 918 178S1110 272 1280 272"/>
+      <path d="M-80 258C180 258 329 258 496 258S799 190 918 190S1110 284 1280 284"/>
+      <path d="M-80 270C180 270 336 246 496 246S809 202 918 202S1110 296 1280 296"/>
+    </g>
+    <style>
+      .label { font: 500 17px Menlo, Consolas, "Liberation Mono", monospace; letter-spacing: 2px; }
+      .caption { font: 400 22px "Avenir Next", Avenir, "Segoe UI", sans-serif; }
+      .stack { font: 400 18px Menlo, Consolas, "Liberation Mono", monospace; }
+      .light { opacity: 0; }
+      /* A single entrance ends before five seconds; the static face is always visible. */
+      @media (prefers-reduced-motion: no-preference) {
+        .light { animation: sweep 4.6s cubic-bezier(.2, .6, .3, 1) both; }
+        .signal { animation: signal 4.6s ease-in-out both; }
+      }
+      @keyframes sweep {
+        0%, 8% { opacity: 0; transform: translateX(0); }
+        18%, 80% { opacity: 1; }
+        100% { opacity: 0; transform: translateX(1760px); }
+      }
+      @keyframes signal {
+        0% { opacity: 0; stroke-dashoffset: 1500; }
+        25%, 60% { opacity: .8; }
+        100% { opacity: 0; stroke-dashoffset: -1500; }
+      }
+      @media (max-width: 600px) {
+        .detail { display: none; }
+        .caption { font-size: 36px; }
+        .label { font-size: 26px; letter-spacing: 1px; }
+      }
+    </style>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <rect width="1200" height="480" fill="url(#background)"/>
+    <rect width="1200" height="480" fill="url(#atmosphere)"/>
+    <use href="#field"/>
+    <path class="signal" d="M-80 174C180 174 280 342 496 342S729 106 918 106S1110 200 1280 200" stroke="#EDB89A" stroke-width="2" stroke-dasharray="90 1500" opacity="0"/>
+    <path d="M56 94H1144M56 386H1144" stroke="#D8907B" stroke-opacity=".18"/>
+    <text x="56" y="62" class="label" fill="#E3B5A5">SKAPXD / SOFTWARE ENGINEER</text>
+    <text x="1144" y="62" text-anchor="end" class="label detail" fill="#BE959E">SISTEMAS · APIs · TOOLING</text>
+    <!-- Offset strokes produce solid depth without raster assets or font downloads. -->
+    <use href="#wordmark" transform="translate(0 19)" stroke="#110B13" stroke-width="36"/>
+    <use href="#wordmark" transform="translate(0 12)" stroke="url(#copper)" stroke-width="28"/>
+    <use href="#wordmark" transform="translate(0 6)" stroke="url(#copper)" stroke-width="28"/>
+    <use href="#wordmark" stroke="url(#ivory)" stroke-width="28"/>
+    <use href="#wordmark" transform="translate(0 -8)" stroke="#FFF3DD" stroke-width="1" opacity=".48"/>
+    <g mask="url(#wordmark-mask)">
+      <path class="light" d="M-500 120H-120L-200 360H-580Z" fill="url(#sheen)"/>
+    </g>
+    <circle cx="61" cy="428" r="5" fill="#E8B69A"/>
+    <text x="80" y="436" class="caption" fill="#F9DCCB">De la complejidad al sistema.</text>
+    <text x="1144" y="436" text-anchor="end" class="stack detail" fill="#D4ABB0">TypeScript / Node.js / Arquitectura</text>
+    <rect x=".5" y=".5" width="1199" height="479" rx="19.5" stroke="#D8907B" stroke-opacity=".2"/>
+  </g>
+</svg>
